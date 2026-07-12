@@ -31,7 +31,8 @@ Sistema personal de entrenamiento PvP (arenas 3v3 y RBG) para un Druida Restaura
 ## Estado actual (actualizar al avanzar)
 
 - **Fase actual: 0 (Cimientos técnicos)** — sin addons ni macros instalados aún.
-- Pendiente bloqueante: completar `macros_y_ui.md` (¿clicker o keybinder?, esquema de teclas).
+- **El jugador es clicker, en proceso de migración a keybinds** (declarado 2026-07-12). Las habilidades de reacción deben migrar a teclas ANTES de cerrar Fase 0 / empezar Fase 1.
+- Pendiente en `macros_y_ui.md`: esquema de teclas actual, estilo de movimiento, teclas incómodas.
 - `registro_temporada.md` sin sesiones registradas todavía.
 - Datos relevantes del jugador: latencia 192-201 ms (Bogotá), 58 FPS en team fights, mouse con 2 botones laterales, dispel en scroll abajo.
 
