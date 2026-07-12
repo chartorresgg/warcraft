@@ -1,0 +1,82 @@
+# Macros — Resto Druid PvP (Midnight S1, 12.0.7)
+
+> Fuentes: Skill Capped (macros S1) e Icy Veins PvP (Mysticall). Verificado 2026-07-11.
+>
+> **Cómo crearlas:** `ESC → Macros` (o `/macro`) → pestaña **"Específicas de personaje"** → Nueva → nombre corto → ícono **"?"** (con `#showtooltip` el ícono se actualiza solo) → pegar código → arrastrar a la barra de acción → asignar tecla en `ESC → Opciones → Asignación de teclas`.
+>
+> **Regla general:** las macros `@algo` lanzan el hechizo sobre ese objetivo SIN cambiar tu target. Ese es todo el punto: sigues viendo a tu equipo mientras controlas al enemigo.
+
+
+
+## OBLIGATORIAS (11) — sin esto no se cierra la Fase 0
+
+
+| #   | Macro                                  | Código                                                                                                                                   | Qué hace                                                                                                                                          | Cuándo usarla                                                                                              | Por qué tenerla                                                                                                                                                        |
+| --- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Nature's Cure @party1**              | `#showtooltip` `/cast [@party1] Nature's Cure`                                                                                           | Disipa al aliado 1 sin seleccionarlo                                                                                                              | Al instante de ver CC mágico o debuff clave en el frame                                                    | Dispel tardío = sanación desperdiciada. Un Poly disipado en 0.5 seg vs 2 seg cambia la partida                                                                         |
+| 2   | **Nature's Cure @party2**              | `#showtooltip` `/cast [@party2] Nature's Cure`                                                                                           | Igual, aliado 2                                                                                                                                   | Igual                                                                                                      | Igual                                                                                                                                                                  |
+| 3   | **Cyclone @focus**                     | `#showtooltip` `/cast [@focus] Cyclone`                                                                                                  | Cyclone al focus (normalmente el healer enemigo) sin soltar tu target                                                                             | Arranca el go de tus DPS → Cyclone al healer                                                               | LA macro de tu prioridad #1. Sin ella, ciclonear = cambiar target, perder visión del equipo, volver                                                                    |
+| 4   | **Cyclone @arena1**                    | `#showtooltip` `/cast [@arena1] Cyclone`                                                                                                 | Cyclone al enemigo 1 de los frames de arena                                                                                                       | Cuando el objetivo NO es tu focus (ej: Mage con Combustion)                                                | Control sobre los 3 enemigos sin tocar target ni focus                                                                                                                 |
+| 5   | **Cyclone @arena2**                    | `#showtooltip` `/cast [@arena2] Cyclone`                                                                                                 | Igual, enemigo 2                                                                                                                                  | Igual                                                                                                      | Si te satura al inicio, empieza solo con #3 y agrega 4-6 en semana 2                                                                                                   |
+| 6   | **Cyclone @arena3**                    | `#showtooltip` `/cast [@arena3] Cyclone`                                                                                                 | Igual, enemigo 3                                                                                                                                  | Igual                                                                                                      | Igual                                                                                                                                                                  |
+| 7   | **Prowl + Rake (tu stun de apertura)** | `#showtooltip Rake` `/cast [noform:1] Cat Form` `/cast [nostealth] Prowl` `/cast [stealth] Rake`                                         | Toques sucesivos: Cat Form → Prowl (sigilo) → Rake, que **desde sigilo aturde**. ⚠️ Resto NO tiene Mighty Bash en Midnight — este es tu stun real | Antes de abrir puertas o en transiciones fuera de combate: Prowl → Rake al healer enemigo → Cyclone encima | Es el opener estándar del spec según Icy Veins. Prowl requiere estar fuera de combate; en pelea tu stun es Maim (fila 7b)                                              |
+| 7b  | **Maim (stun en combate)**             | `#showtooltip` `/cast Maim`                                                                                                             | Stun en melee que consume puntos de combo (1-5 seg según combos)                                                                                  | En Cat Form pegado al objetivo: Rake/Shred generan combos → Maim aturde                                    | 49/50 de los top lo talentan. *Forest Guardian* (tu PvP talent) existe para esto: agredir en Cat sin que tus HoTs mueran. Jugada de Fase 2+, no la fuerces en semana 1 |
+| 8   | **Bear + Frenzied Regen**              | `#showtooltip` `/cast [nostance] Bear Form` `/cast [form:2] Bear Form` `/cast [form:3] Bear Form` `/cast [form:1] Frenzied Regeneration` | 1er toque = Bear Form (desde cualquier forma); 2do toque = Frenzied Regen                                                                         | El swap viene hacia ti y Barkskin no basta: spamea la tecla                                                | Bajo pánico no hay tiempo de "primero forma, luego heal". Un botón = capa defensiva 2 completa                                                                         |
+| 9   | **NS + Cyclone instantáneo**           | `#showtooltip` `/cast Nature's Swiftness` `/cast Cyclone`                                                                                | Con *Call of Ohn'ahra*: Cyclone instantáneo, imposible de kickear                                                                                 | Momento clutch: kill window abierto, sin tiempo de hardcast                                                | Con tus 200 ms, el único Cyclone que tu ping no puede arruinar. Variante: última línea `/cast [@focus] Cyclone`                                                        |
+| 10  | **Trinket PvP**                        | `#showtooltip` `/use 14`                                                                                                                 | Usa el accesorio del slot 14 (Medallion). Si está arriba, cambia a `/use 13`                                                                      | Solo con la regla de 3 condiciones (CC completo + aliado/tú <60% + CDs enemigos activos)                   | Trinket clickeado desde bolsa = trinket tarde. Tecla dedicada, siempre la misma                                                                                        |
+| 11  | **Shadowmeld instantáneo**             | `#showtooltip` `/stopcasting` `/cast Shadowmeld`                                                                                         | Corta tu cast y te desvanece: pierden target sobre ti; casts dirigidos a ti fallan                                                                | Uso pro: el caster enemigo termina su CC hacia ti → Meld en el último instante → el cast se pierde         | Eres Night Elf: este racial es la razón por la que el 98% de los top lo son. Sin macro no corta tu propio cast                                                         |
+
+
+
+
+## OPCIONALES — agregar en semanas 2-4, en este orden
+
+
+| #   | Macro                             | Código                                                                                                           | Qué hace / Cuándo                                                                                               | Nota                                                                               |
+| --- | --------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| A   | **Ironbark @party1 / @party2**    | `#showtooltip` `/cast [@party1] Ironbark` *(duplicar para party2)*                                               | Tu externo instantáneo al aliado, al inicio del go enemigo sobre él                                             | Sube a obligatoria en Fase 1. Opcional solo mientras te acostumbras al resto       |
+| B   | **NS + Regrowth (pánico)**        | `#showtooltip` `/castsequence reset=3 Nature's Swiftness, Regrowth`                                              | 1er toque NS, 2do Regrowth instantáneo (se reinicia a los 3 seg)                                                | ⚠️ Compite por NS con #9. NS es UNA carga: decide en el momento si es heal o CC    |
+| C   | **Entangling Roots @focus**       | `#showtooltip` `/cast [@focus] Entangling Roots`                                                                 | Roots al focus: peel o separar al healer enemigo de su equipo                                                   | Versiones @arena123 si escalas                                                     |
+| D   | **Wild Charge @party1 / @party2** | `#showtooltip` `/cast [@party1] Wild Charge` *(duplicar para party2)*                                            | Vuelas hacia tu aliado: escape instantáneo del tren melee                                                       | Salvavidas lejos de pilares                                                        |
+| E   | **Efflorescence @cursor**         | `#showtooltip` `/cast [@cursor] Efflorescence` `/ping`                                                           | Suelta la flor donde está el cursor, sin círculo verde, y pinguea al equipo                                     | Ahorra ~0.5 seg por uso, muchas veces por partida                                  |
+| F   | **Talento flexible: AoE CC**      | `#showtooltip` `/cast [known:Mass Entanglement] Mass Entanglement` `/cast [known:Ursol's Vortex] Ursol's Vortex` | Usa automáticamente el talento que tengas en esa fila                                                           | A prueba de swaps de matchup (Fase 4): cambias talentos sin reorganizar barras     |
+| G   | **Incapacitating Roar**           | `#showtooltip` `/cast Incapacitating Roar`                                                                       | CC de área de 3 seg (se rompe con daño) — tu incapacitate cuando lo talentas (flex, 37/50 de uso)               | Solo si está en tu build. Coordina en voz antes de usarlo: el daño propio lo rompe |
+| H   | **Nature's Cure @mouseover**      | `#showtooltip` `/cast [@mouseover,help,nodead][@target] Nature's Cure`                                           | Cursor sobre el frame del aliado + tecla = dispel a ESE aliado sin targetear. Sin mouseover, disipa a tu target | La evolución de tu scroll abajo — ver tabla de keybinds                            |
+
+
+
+
+## Keybinds sugeridos (tu configuración: 2 botones laterales de mouse, dispel en scroll)
+
+**Tu scroll abajo: consérvalo, pero cámbiale el contenido por la macro H (@mouseover).** Si el cursor no está sobre nadie, se comporta idéntico a tu bind actual — upgrade sin costo de reaprendizaje.
+
+
+| Tecla                   | Macro                                              | Razón                                            |
+| ----------------------- | -------------------------------------------------- | ------------------------------------------------ |
+| Scroll abajo            | H — Nature's Cure @mouseover                       | Tu hábito de años + mouseover gratis             |
+| Mouse lateral frontal   | #3 — Cyclone @focus                                | Tu macro de presión más usada: acceso más rápido |
+| Mouse lateral trasero   | #10 — Trinket                                      | Reacción pura, cero desplazamiento de dedos      |
+| Shift+Scroll abajo      | #1 — Nature's Cure @party1                         | Respaldo cuando el cursor está ocupado           |
+| Ctrl+Scroll abajo       | #2 — Nature's Cure @party2                         | Igual                                            |
+| F                       | #8 — Bear+Frenzied                                 | La tecla de pánico más cómoda cerca de WASD      |
+| Shift+F                 | #9 — NS+Cyclone                                    | Junto a su hermana defensiva                     |
+| Q                       | #7 — Prowl+Rake (y Maim en Shift+R o tecla cómoda) | Reacción ofensiva, dedo índice                   |
+| Shift+Q                 | C — Roots @focus                                   | Misma familia                                    |
+| 4, 5, 6 (o Shift+1/2/3) | #4-6 — Cyclone @arena1/2/3                         | Planificadas, pueden vivir más lejos             |
+| E / Shift+E             | A — Ironbark @party1/@party2                       | Externo = reacción, cerca de WASD                |
+| V                       | #11 — Shadowmeld                                   | Accesible pero sin riesgo de toque accidental    |
+
+
+**Principio:** reacción cerca de WASD (Q, E, R, F, C, V y Shift+); planificado puede vivir lejos. **Test:** si en un skirmish dudas qué tecla es, el bind está mal ubicado, no tu memoria.
+
+## Drill de automatización (antes de colar nada)
+
+
+| Sesión     | Dónde          | Contenido                                                                                                                               | Métrica                                 |
+| ---------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| 1 (20 min) | Dummies        | Obligatorias 1-8. Focus en un dummy, target en otro. Ciclo: Prowl+Rake al dummy → Cyclone focus → dispel party1 → Bear+Frenzied → salir | Fluye sin mirar barras                  |
+| 2 (20 min) | Dummies        | Agregar 9-11. Practicar "juke + Shadowmeld": empezar cast, cortarlo con Meld                                                            | Meld corta el cast el 100% de las veces |
+| 3          | Skirmish/duelo | Todo junto con presión real                                                                                                             | 0 clicks de mouse en habilidades        |
+
+
+Al completar las 3 sesiones: actualizar `macros_y_ui.md` → **Fase 0.3 cerrada**.
