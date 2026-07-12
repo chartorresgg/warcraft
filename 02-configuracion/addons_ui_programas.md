@@ -66,7 +66,7 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 3. Entrar a un **skirmish** de prueba: verificar que ves (a) DR en frames de arena, (b) CC gigante en frames, (c) tu orden de party fijo, (d) cast bars enemigas en nameplates.
 4. Probar las macros @party1/@party2 con FrameSort activo: confirmar que party1 es SIEMPRE el frame de arriba.
 5. Instalar **OBS** (sin configurar aún) y guardar **Check-PvP** en favoritos.
-6. Actualizar `macros_y_ui.md` con el stack final.
+6. Actualizar `02-configuracion/macros_y_ui.md` con el stack final.
 
 ## 6. Reglas simplificadas
 

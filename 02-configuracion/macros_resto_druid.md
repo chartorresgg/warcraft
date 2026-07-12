@@ -48,6 +48,8 @@
 
 ## Keybinds sugeridos (tu configuración: 2 botones laterales de mouse, dispel en scroll)
 
+> ⚠️ Ajuste 2026-07-12: strafeas con Q/E — esas teclas se CONSERVAN como movimiento. Donde esta tabla diga Q o E, usa **A y D** (quedan libres al pasar el giro del personaje al mouse — ver plan de migración en `02-configuracion/macros_y_ui.md`). El resto de la tabla aplica igual.
+
 **Tu scroll abajo: consérvalo, pero cámbiale el contenido por la macro H (@mouseover).** Si el cursor no está sobre nadie, se comporta idéntico a tu bind actual — upgrade sin costo de reaprendizaje.
 
 
@@ -79,4 +81,4 @@
 | 3          | Skirmish/duelo | Todo junto con presión real                                                                                                             | 0 clicks de mouse en habilidades        |
 
 
-Al completar las 3 sesiones: actualizar `macros_y_ui.md` → **Fase 0.3 cerrada**.
+Al completar las 3 sesiones: actualizar `02-configuracion/macros_y_ui.md` → **Fase 0.3 cerrada**.

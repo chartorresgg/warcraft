@@ -41,7 +41,7 @@ Season 2 llega con 12.1 a mediados de agosto. Con 8 h/semana, **no vas a superar
 
 ### 0.2 UI base + addons (instalación mínima viable — una sesión de ~1 hora)
 
-> ⚠️ Actualizado 2026-07-12: la lista original (Gladius/OmniBar/BigDebuffs/OmniCC/WeakAuras) quedó obsoleta por el "Addon Apocalypse" de Midnight — WeakAuras está muerto en retail y OmniCC es innecesario. El detalle completo, la configuración de la UI base y el orden de instalación están en `addons_ui_programas.md`.
+> ⚠️ Actualizado 2026-07-12: la lista original (Gladius/OmniBar/BigDebuffs/OmniCC/WeakAuras) quedó obsoleta por el "Addon Apocalypse" de Midnight — WeakAuras está muerto en retail y OmniCC es innecesario. El detalle completo, la configuración de la UI base y el orden de instalación están en `02-configuracion/addons_ui_programas.md`.
 
 **Primero la UI base de Blizzard** (Cooldown Manager, números de CD nativos, cast bars en nameplates, DR nativo en frames de arena), **después el stack de 3 addons:**
 
@@ -52,26 +52,26 @@ Season 2 llega con 12.1 a mediados de agosto. Con 8 h/semana, **no vas a superar
 | **MiniCC**           | CC gigante en frames, tracking de CDs enemigos (kicks, ofensivos), alerta de "tu healer está en CC"                       |
 | **FrameSort**        | Orden fijo de party1/party2 entre rondas — sin él, tus macros @party1/@party2 son ruleta rusa en Shuffle                   |
 
-Atajo: el addon **Skill Capped UI** auto-configura todo el stack en un clic (ver `addons_ui_programas.md`).
+Atajo: el addon **Skill Capped UI** auto-configura todo el stack en un clic (ver `02-configuracion/addons_ui_programas.md`).
 
 
 
 
 ### 0.3 Macros mínimas (las 11 innegociables)
 
-> ⚠️ Actualizado 2026-07-12: el set completo con código copiable, keybinds sugeridos y drill de automatización está en `macros_resto_druid.md`. Ojo: **Resto NO tiene Mighty Bash en Midnight** — tu stun real es Rake desde Prowl (fuera de combate) y Maim (en combate, Cat Form).
+> ⚠️ Actualizado 2026-07-12: el set completo con código copiable, keybinds sugeridos y drill de automatización está en `02-configuracion/macros_resto_druid.md`. Ojo: **Resto NO tiene Mighty Bash en Midnight** — tu stun real es Rake desde Prowl (fuera de combate) y Maim (en combate, Cat Form).
 
 Resumen del set: Nature's Cure `@party1`/`@party2` · Cyclone `@focus` y `@arena1/2/3` · Prowl+Rake (stun de apertura) · Maim (stun en combate) · Bear Form + Frenzied Regen en un botón · NS + Cyclone instantáneo · Trinket (`/use 14`) · Shadowmeld con `/stopcasting`. Ironbark `@party1`/`@party2` sube a obligatoria en Fase 1.
 
 ### 0.4 Keybinds
 
-- Completa `macros_y_ui.md`: ¿clicker o keybinder? Esto es lo primero que hay que saber. Si hay clicks en habilidades de reacción (trinket, Bark, kick en Cat), migrarlas a teclas ANTES de la Fase 1.
+- Completa `02-configuracion/macros_y_ui.md`: ¿clicker o keybinder? Esto es lo primero que hay que saber. Si hay clicks en habilidades de reacción (trinket, Bark, kick en Cat), migrarlas a teclas ANTES de la Fase 1.
 - Los dos botones laterales del mouse: **trinket** y **Cyclone @focus** son candidatos ideales (habilidades de reacción/presión).
 - Regla: nada crítico en teclas que evites bajo presión.
 
 **Ejercicio (sin colas):** 3 sesiones de 20 min contra dummies/duelos amistosos usando SOLO macros y keybinds nuevos hasta que salgan sin mirar la barra.
 
-**Métrica de salida:** ✅ Build importado y verificado ✅ UI base configurada + stack de 3 addons funcionando (sArena Reloaded, MiniCC, FrameSort) ✅ 11 macros usadas sin pensar en un skirmish ✅ `macros_y_ui.md` completado.
+**Métrica de salida:** ✅ Build importado y verificado ✅ UI base configurada + stack de 3 addons funcionando (sArena Reloaded, MiniCC, FrameSort) ✅ 11 macros usadas sin pensar en un skirmish ✅ `02-configuracion/macros_y_ui.md` completado.
 
 ---
 
@@ -221,7 +221,7 @@ Lo que EXIGES de tus DPS:
 - **Grabación:** OBS con replay buffer (o la grabación de Windows) — solo partidas puntuadas.
 - **Frecuencia:** 2 partidas revisadas por semana (1 derrota cerrada + 1 victoria). Más es procrastinación disfrazada de estudio.
 - **Qué buscar según fase del error:** cada CC que comiste (¿posicionamiento?), cada muerte de aliado (¿NS/Ironbark disponibles?), cada Cyclone (¿abrió algo o quemó DR?), cada trinket (¿regla de 3 condiciones?).
-- Registrar hallazgos en `registro_temporada.md` — el análisis de patrones cada 2-3 semanas se hace en el chat de Tracking.
+- Registrar hallazgos en `04-seguimiento/registro_temporada.md` — el análisis de patrones cada 2-3 semanas se hace en el chat de Tracking.
 
 
 
@@ -238,7 +238,7 @@ Lo que EXIGES de tus DPS:
 - Tus fundamentos de 2100 siguen ahí. Lo nuevo a validar en S2: build RBG específico (Murlok.io tiene página separada de RBG), y el rol de healer de FC se beneficia directamente de todo lo de la Fase 2 (posicionamiento anti-CC es supervivencia de FC).
 - Push de RBG en paralelo desde S2 con comunidades organizadas (mismos canales que 3.2) — no random LFG a 2100+.
 
-**Métrica de fase (rolling):** ✅ 2 VODs/semana revisados con notas ✅ Tendencia de rating positiva en ventanas de 3 semanas ✅ Hitos de `registro_temporada.md` tachándose.
+**Métrica de fase (rolling):** ✅ 2 VODs/semana revisados con notas ✅ Tendencia de rating positiva en ventanas de 3 semanas ✅ Hitos de `04-seguimiento/registro_temporada.md` tachándose.
 
 ---
 
@@ -249,7 +249,7 @@ Lo que EXIGES de tus DPS:
 
 | Fase                          | Semanas | Objetivo central                              | Métrica de salida                                                                           |
 | ----------------------------- | ------- | --------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **0 — Cimientos técnicos**    | 1-2     | UI base, addons, macros, keybinds, build      | 11 macros automáticas en skirmish; UI completa; `macros_y_ui.md` lleno                      |
+| **0 — Cimientos técnicos**    | 1-2     | UI base, addons, macros, keybinds, build      | 11 macros automáticas en skirmish; UI completa; `02-configuracion/macros_y_ui.md` lleno                      |
 | **1 — Sanación bajo presión** | 3-5     | Healing y defensivos automáticos              | 0 muertes con NS disponible; trinket solo con regla de 3 condiciones; Shuffle estable ≥1784 |
 | **2 — Juego ofensivo** ⭐      | 6-9     | Cyclone, DR, fake cast, posicionamiento       | 3+ Cyclones útiles/ronda; ≤1 kick sufrido/ronda; Shuffle 1850+                              |
 | **3 — Equipo y comps**        | 10-13   | Transición a 3v3 coordinado en S2             | Equipo fijo, 30+ partidas misma comp, protocolo de voz al 100%, 3v3 1600+                   |
