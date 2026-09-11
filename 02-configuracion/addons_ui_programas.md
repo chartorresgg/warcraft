@@ -17,17 +17,26 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 
 ## 2. PASO 1 — Configurar la UI base de Blizzard (antes de instalar nada)
 
-| Ajuste | Dónde | Por qué te importa |
+> 🇪🇸 **Tu cliente está en español.** Los nombres de menú van en español, con el inglés entre paréntesis (las guías y vídeos que consultes estarán en inglés).
+>
+> **Las dos teclas que abren todo:** `ESC → Opciones` (Options) para los ajustes, y `ESC → Editar` / **Modo de edición** (Edit Mode) para mover y activar elementos de la interfaz.
+>
+> ⚠️ Las rutas exactas de submenú pueden variar con los parches. Si no encuentras una opción donde dice la tabla, **usa el buscador de la ventana de Opciones** (arriba a la derecha): escribe una palabra clave en español y te lleva directo.
+
+| Ajuste (ES / EN) | Dónde | Por qué te importa |
 |---|---|---|
-| **Cooldown Manager** | Edit Mode (Modo de edición) | Tracker nativo de tus CDs ofensivos/defensivos/utilidad. Wowhead tiene strings de importación por clase ("starter UI pack") — importa el de Druid |
-| **Números de cooldown en barras** | Opciones → Combate/Barras de acción | Reemplaza a OmniCC. Actívalo y no instales nada para esto |
-| **Cast bars en nameplates enemigos** | Opciones → Nameplates | La mejora de legibilidad #1 según las guías: ves cada cast enemigo sobre su cabeza |
-| **Nameplates siempre visibles + apilado vertical** | Opciones → Nameplates | Con solo TUS debuffs mostrados (lo demás lo pone MiniCC) |
-| **Retratos como íconos de clase** | Opciones → Interfaz | Lees la comp enemiga de un vistazo |
-| **Raid frames: barra de poder + colores de clase + mostrar mascotas** | Opciones → Raid frames | Ves el maná del healer aliado y distingues clases al instante |
-| **Lectura de DR en frames de arena** | Nativa desde 12.0 | El juego ya muestra diminishing returns en los frames — antes esto requería addon |
-| **Display de defensivos externos** | Edit Mode | Ves los externos activos (tu Ironbark incluido) de forma nativa |
-| **Personal Resource Display + Target of Target** | Opciones | Recursos propios bajo tu personaje y quién golpea a quién |
+| **Gestor de tiempos de reutilización** (Cooldown Manager) | Modo de edición (Edit Mode) | Tracker nativo de tus CDs ofensivos/defensivos/utilidad. Wowhead tiene strings de importación por clase ("starter UI pack") — importa el de Druid |
+| **Números de tiempo de reutilización en las barras** (cooldown numbers) | Opciones → Barras de acción (Action Bars) | Reemplaza a OmniCC. Actívalo y no instales nada para esto |
+| **Barras de lanzamiento en placas de nombre enemigas** (cast bars on nameplates) | Opciones → Placas de nombre (Nameplates) | La mejora de legibilidad #1 según las guías: ves cada cast enemigo sobre su cabeza |
+| **Placas de nombre siempre visibles + apilado vertical** (always show nameplates / stacking) | Opciones → Placas de nombre (Nameplates) | Con solo TUS debuffs mostrados (lo demás lo pone MiniCC) |
+| **Retratos como íconos de clase** (class icon portraits) | Opciones → Interfaz (Interface) | Lees la comp enemiga de un vistazo |
+| **Marcos de banda: barra de poder + colores de clase + mostrar mascotas** (raid frames) | Opciones → Marcos de banda (Raid Frames) | Ves el maná del healer aliado y distingues clases al instante |
+| **Lectura de DR en los marcos de arena** (diminishing returns) | Nativa desde 12.0 | El juego ya muestra diminishing returns en los frames — antes esto requería addon |
+| **Visualización de defensivos externos** (external defensives display) | Modo de edición (Edit Mode) | Ves los externos activos (tu Ironbark / Corteza de hierro incluido) de forma nativa |
+| **Pantalla de recursos personales** (Personal Resource Display) | Opciones → Interfaz (Interface) | Tus recursos bajo tu personaje: no apartas la vista del centro de la pantalla |
+| **Objetivo del objetivo** (Target of Target) | Opciones → Interfaz (Interface) | Ves a quién está pegando tu objetivo — quién va a morir antes |
+
+> 💡 **Atajo que te ahorra todo esto:** el addon **Skill Capped UI** (§7) configura la mayoría de estos ajustes automáticamente, incluidos CVars ocultos que no están en ningún menú (como el *Spell Queue Window* ajustado a tu latencia). Si lo instalas, revisa esta tabla solo para lo que quieras afinar a mano.
 
 ## 3. PASO 2 — El stack de addons PvP de Midnight (el nuevo estándar)
 
@@ -63,9 +72,9 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 ## 5. Orden de instalación (una sesión de ~1 hora)
 
 1. Instalar **CurseForge App** → con él instalar **sArena Reloaded, MiniCC, FrameSort** (o el addon **Skill Capped UI** que configura todo).
-2. Configurar la **UI base** con la tabla del Paso 1 (15 min). Importar el Cooldown Manager de Druid desde el starter pack de Wowhead.
-3. Entrar a un **skirmish** de prueba: verificar que ves (a) DR en frames de arena, (b) CC gigante en frames, (c) tu orden de party fijo, (d) cast bars enemigas en nameplates.
-4. Probar las macros @party1/@party2 con FrameSort activo: confirmar que party1 es SIEMPRE el frame de arriba.
+2. Configurar la **UI base** con la tabla del Paso 1 (15 min). Importar el Gestor de tiempos de reutilización (Cooldown Manager) de Druid desde el starter pack de Wowhead.
+3. Entrar a un **combate de prueba / skirmish** y verificar que ves: (a) DR en los marcos de arena, (b) CC gigante en los marcos, (c) tu orden de grupo fijo, (d) barras de lanzamiento enemigas en las placas de nombre (nameplates).
+4. Probar las macros @party1/@party2 con FrameSort activo: confirmar que party1 es SIEMPRE el marco de arriba.
 5. Instalar **OBS** (sin configurar aún) y guardar **Check-PvP** en favoritos.
 6. Actualizar `macros_y_ui.md` con el stack final.
 
@@ -116,12 +125,13 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 
 ### Verificación (skirmish de 5 min — no saltar)
 
-- ☐ Frames de arena con DR visible a la izquierda de las barras
-- ☐ Números 1/2/3 sobre los nameplates enemigos → probar Cyclone @arena1 contra el correcto
-- ☐ Tu personaje abajo en raid frames → probar dispel @party1 y @party2
+- ☐ Marcos de arena con DR visible a la izquierda de las barras
+- ☐ Números 1/2/3 sobre las placas de nombre (nameplates) enemigas → probar Cyclone (Ciclón) @arena1 contra el correcto
+- ☐ Tu personaje abajo en los marcos de banda (raid frames) → probar dispel @party1 y @party2
 - ☐ Alerta de MiniCC visible (que un enemigo te CCee y mira la notificación)
-- ☐ Cast bars enemigas legibles a un vistazo
+- ☐ Barras de lanzamiento (cast bars) enemigas legibles a un vistazo
 - ☐ FPS estables (si bajan de tus 58 habituales, desactivar Details primero)
+- ☐ **Las 11 macros sin ícono "?"** — si alguna lo tiene, el nombre del hechizo está mal escrito (ver `macros_resto_druid.md`)
 
 Soporte oficial: canal de addons en el Discord de Skill Capped (discord.gg/scwow).
 

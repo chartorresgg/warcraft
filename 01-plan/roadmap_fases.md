@@ -60,8 +60,22 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 - **Talentos y PvP talents:** ✅ **revalidado el 2026-09-11 para S2** — la tríada sigue siendo *Forest Guardian* (50/50), *Early Spring* (48/50) y *Call of Ohn'ahra* (35/50). Importa el build estándar de Skill Capped **creando un loadout nuevo de S2, no parcheando el viejo** (12.1 eliminó *Nature's Splendor* y añadió *Overgrowth* / *Flash of Clarity*). PvP talents situacionales a tener aprendidos: *Thorns* (vs doble melee), *Disentanglement* (vs comps con slows), *High Winds* (Cyclone defensivo vs equipos sin kicks). **No tomes *Ancient of Lore*** pese a que Icy Veins lo recomiende: 3/50 en el ladder.
 - **Hero Talent:** ✅ *Keeper of the Grove* **revalidado el 2026-09-11 para S2: 42/50 de los top de 3v3 lo usan** (Wildstalker solo 8/50). Sigue siendo el correcto — no lo cambies. ⚠️ Ojo: las guías de **PvE** de 12.1 recomiendan Wildstalker; eso no aplica a PvP.
 - **Stats:** **arena** = Mastery (38%) > Versatility (15%) > Haste (12%) > Crit (5%). ⚠️ **Blitz/RBG invierten el orden: Versatility > Mastery.** Juegas ambos brackets: si empujas Blitz en serio, es otro set de gemas/enchants. Copia los más usados en Murlok.io del bracket correspondiente — no teorices, son datos vivos.
-- **Omnium Folio:** completar la cadena de misiones y elegir las runas PvP recomendadas en la página de builds de Icy Veins.
-- **iLvl:** ⚠️ el 298 es dato de julio (S1). **Season 2 trajo gear nuevo y reseteó Conquest** — reverifica tu iLvl actual y capea el gear PvP semanal. Empujar rating con desventaja de iLvl es entrenar frustración.
+- **Omnium Folio (Folio Omnium):** cadena introductoria de ~15-20 min en solitario, luego **una fila de runas por semana durante 5 semanas**. Las runas se cambian gratis, en cualquier momento y sin viajar — así que no hay decisión irreversible. Tabla de elecciones para ti ↓
+- **iLvl:** ✅ **338** (actualizado 2026-09-11). Capea el gear PvP semanal para seguir subiendo.
+
+#### Runas del Omnium Folio — tus elecciones (revalidado 2026-09-11)
+
+> ⚠️ **Casi todas las guías que encuentres recomiendan el build de PvE.** Dos de las filas cambian en PvP, y una de ellas es una trampa para un healer. Esta tabla es la versión PvP.
+
+| Fila | Opciones | Tu elección (PvP) | Por qué |
+|---|---|---|---|
+| **1 — Core** (sem. 1) | Void-Touched Orbs · Unleashed Fire | 🟢 **Void-Touched Orbs** | Acumula orbes que tus curas redirigen a aliados. Unleashed Fire exige quedarte quieto en una zona — inviable para un healer que vive kiteando. Coincide con la recomendación de healer Y la de PvP |
+| **2 — Defensiva** (sem. 2) | Void-Tainted Shell · Self-Mending · Lynxlike Reflexes | 🟢 **Lynxlike Reflexes** | Velocidad de movimiento al recibir daño = kiteo. ⚠️ **Evita Void-Tainted Shell**: el escudo te devuelve el 50% del daño absorbido en 10 seg — daño que TÚ tienes que curarte. En PvE compensa; en arena le regalas presión al enemigo. *Self-Mending es alternativa defendible si te sientes muy frágil, pero la movilidad resuelve tu debilidad declarada (posicionamiento)* |
+| **3 — Lingering** (sem. 3) | Rune of Lingering (única) | ⚪ **Sin decisión** | Todos la reciben. Extiende el efecto de tu runa core 8 seg |
+| **4 — Stat secundaria** (sem. 4) | Crit · Haste · Mastery · Versatility | 🟢 **Mastery** en arena · **Versatility** en Blitz | Sigue tu prioridad de stats por bracket (§0.1 arriba). Como las runas se cambian gratis, **puedes alternarla según a qué vayas a colar** |
+| **5 — Capstone** (sem. 5) | Overload · Residual Energy · Echoes | 🟢 **Overload** | Duplica el burst de la runa core. *Residual Energy (duplica el efecto lingering) es la alternativa para specs de HoTs como el tuyo — cuando la desbloquees, pruébala 2-3 sesiones y quédate con la que notes* |
+
+**Regla práctica:** al ser gratis el cambio, trátalas como talentos flexibles, no como una decisión permanente. La única que **no** debes tomar en PvP es Void-Tainted Shell.
 
 
 

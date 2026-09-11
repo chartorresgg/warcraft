@@ -7,7 +7,9 @@ Sistema personal de entrenamiento PvP (arenas 3v3 y RBG) para un Druida Restaura
 - **Lee siempre `00-perfil/perfil_jugador.md` primero** — es el contexto base de cualquier respuesta (ratings, debilidades declaradas, disponibilidad de 8 h/semana, preferencias de coaching).
 - Si un dato marcado `[COMPLETAR]` es relevante para la respuesta, pídelo antes de responder.
 - Parche actual: **12.1, Midnight Season 2** (parche 11 ago 2026; temporada desde el 18 ago). Revalidado el 2026-09-11 contra Murlok.io, Icy Veins y los hotfixes del 1 de septiembre.
-- **El cliente del jugador está en español (esES).** Toda macro que propongas debe llevar los **nombres de hechizo en español** (los comandos `/cast`, `/use`, `#showtooltip` siguen en inglés) o no funcionará. El glosario EN→ES está en `02-configuracion/macros_resto_druid.md`. Método recomendado siempre: **Shift+clic** sobre el hechizo, por el fallo de acentos del cliente español.
+- **El cliente del jugador está en español (esES).** Dos consecuencias:
+  1. **Macros:** los **nombres de hechizo van en español** (los comandos `/cast`, `/use`, `#showtooltip` siguen en inglés) o la macro no funciona — falla en silencio. Glosario EN→ES en `02-configuracion/macros_resto_druid.md`. Método siempre: **Shift+clic** sobre el hechizo, por el fallo de acentos del cliente español.
+  2. **Nombres en general:** spells, talentos, runas y **opciones de menú del juego** se escriben en **inglés con el español entre paréntesis** — ej. *Cyclone (Ciclón)*, *Nameplates (Placas de nombre)*. El inglés es el de las guías (Murlok, Icy Veins, Skill Capped); el español es lo que el jugador ve en pantalla. Aplica a TODOS los archivos, no solo a los de macros.
 
 ## Mapa de archivos
 
