@@ -47,14 +47,18 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 
 
 
-## FASE 0 — Cimientos técnicos (Semanas 1-2, ~16 h)
+## FASE 0 — Cimientos técnicos (Semana 1, ~4 h de trabajo real)
 
 **Objetivo:** dejar de jugar con desventaja de herramientas. Hoy juegas sin addons y sin macros: es como ir al gimnasio en sandalias. Antes de entrenar técnica, necesitas el equipo.
+
+> 📌 **Recalendarizado el 2026-09-11:** el plan original daba 2 semanas y ~16 h a esta fase. Es una sobreestimación que la volvió fácil de aplazar — y llevas dos meses aplazándola. **El trabajo real son ~4 horas:** 30 min de addons, 40 min de macros, 30 min del paso 0 de keybinds, 15 min de verificación en skirmish, y ~1 h de drills. Cabe en un fin de semana.
+>
+> **Esta fase no tiene archivo propio** (a diferencia de las Fases 1 y 2): es este índice, y el detalle vive en los tres archivos de `02-configuracion/`. La ruta de aplicación paso a paso está abajo, en cada subsección.
 
 ### 0.1 Build y gear (verificar contra fuentes vivas, no memorizar)
 
 - **Talentos y PvP talents:** ✅ **revalidado el 2026-09-11 para S2** — la tríada sigue siendo *Forest Guardian* (50/50), *Early Spring* (48/50) y *Call of Ohn'ahra* (35/50). Importa el build estándar de Skill Capped **creando un loadout nuevo de S2, no parcheando el viejo** (12.1 eliminó *Nature's Splendor* y añadió *Overgrowth* / *Flash of Clarity*). PvP talents situacionales a tener aprendidos: *Thorns* (vs doble melee), *Disentanglement* (vs comps con slows), *High Winds* (Cyclone defensivo vs equipos sin kicks). **No tomes *Ancient of Lore*** pese a que Icy Veins lo recomiende: 3/50 en el ladder.
-- **Hero Talent:** ya juegas *Keeper of the Grove*; valida en Murlok.io qué usan los top de 3v3 este parche antes de S2 (los dos árboles son viables, pero el dominante cambia con tuning).
+- **Hero Talent:** ✅ *Keeper of the Grove* **revalidado el 2026-09-11 para S2: 42/50 de los top de 3v3 lo usan** (Wildstalker solo 8/50). Sigue siendo el correcto — no lo cambies. ⚠️ Ojo: las guías de **PvE** de 12.1 recomiendan Wildstalker; eso no aplica a PvP.
 - **Stats:** **arena** = Mastery (38%) > Versatility (15%) > Haste (12%) > Crit (5%). ⚠️ **Blitz/RBG invierten el orden: Versatility > Mastery.** Juegas ambos brackets: si empujas Blitz en serio, es otro set de gemas/enchants. Copia los más usados en Murlok.io del bracket correspondiente — no teorices, son datos vivos.
 - **Omnium Folio:** completar la cadena de misiones y elegir las runas PvP recomendadas en la página de builds de Icy Veins.
 - **iLvl:** ⚠️ el 298 es dato de julio (S1). **Season 2 trajo gear nuevo y reseteó Conquest** — reverifica tu iLvl actual y capea el gear PvP semanal. Empujar rating con desventaja de iLvl es entrenar frustración.
@@ -81,19 +85,25 @@ Atajo: el addon **Skill Capped UI** auto-configura todo el stack en un clic (ver
 
 ### 0.3 Macros mínimas (las 11 innegociables)
 
-> ⚠️ Actualizado 2026-07-12: el set completo con código copiable, keybinds sugeridos y drill de automatización está en `02-configuracion/macros_resto_druid.md`. Ojo: **Resto NO tiene Mighty Bash en Midnight** — tu stun real es Rake desde Prowl (fuera de combate) y Maim (en combate, Cat Form).
+> 🔴 **CRÍTICO — tu cliente está en español.** Las macros deben llevar los **nombres de hechizo en español** (`/cast [@focus] Ciclón`, no `Cyclone`) o **no funcionan: se crean sin error y no hacen nada.** El set completo ya traducido, con glosario EN→ES y código copiable, está en `02-configuracion/macros_resto_druid.md`.
+>
+> **Método obligatorio: Shift+clic**, no tecleo. El cliente esES falla con los acentos según el teclado. Abre el grimorio (`P`), pon el cursor donde va el nombre y haz Shift+clic sobre el hechizo: el juego escribe el nombre exacto. **Ícono "?" al terminar = macro rota.**
+>
+> Ojo: **Resto NO tiene Mighty Bash en Midnight** — tu stun real es Rake desde Prowl (fuera de combate) y Maim (en combate, Cat Form).
 
 Resumen del set: Nature's Cure `@party1`/`@party2` · Cyclone `@focus` y `@arena1/2/3` · Prowl+Rake (stun de apertura) · Maim (stun en combate) · Bear Form + Frenzied Regen en un botón · NS + Cyclone instantáneo · Trinket (`/use 14`) · Shadowmeld con `/stopcasting`. Ironbark `@party1`/`@party2` sube a obligatoria en Fase 1.
 
 ### 0.4 Keybinds
 
-- Completa `02-configuracion/macros_y_ui.md`: ¿clicker o keybinder? Esto es lo primero que hay que saber. Si hay clicks en habilidades de reacción (trinket, Bark, kick en Cat), migrarlas a teclas ANTES de la Fase 1.
-- Los dos botones laterales del mouse: **trinket** y **Cyclone @focus** son candidatos ideales (habilidades de reacción/presión).
-- Regla: nada crítico en teclas que evites bajo presión.
+- ✅ Dato ya recogido: **eres clicker** (todo en barras, curas en 1-5, defensivos en barra 2, dispel en scroll abajo). El plan de migración incremental de 7 pasos está en `02-configuracion/macros_y_ui.md`.
+- **Paso 0, el que bloquea todo lo demás: girar con el mouse (botón derecho sostenido), no con A/D.** Es el cambio más incómodo y el más importante: el giro con teclado tiene velocidad fija y lenta — en arena no llegas a kitear ni a reaccionar a swaps. Al hacerlo, A/D quedan libres como teclas de habilidad premium.
+- ⚠️ **Q/E se conservan como strafe** (hábito de años). Donde una tabla sugiera Q o E para habilidades, usa **A/D**.
+- Los dos botones laterales del mouse: **trinket** y **Cyclone @focus** (habilidades de reacción pura).
+- Regla: nada crítico en teclas que evites bajo presión. Anótalas en `macros_y_ui.md` a medida que aparezcan en los drills.
 
-**Ejercicio (sin colas):** 3 sesiones de 20 min contra dummies/duelos amistosos usando SOLO macros y keybinds nuevos hasta que salgan sin mirar la barra.
+**Ejercicio (sin colas):** las 4 sesiones del drill de `02-configuracion/macros_resto_druid.md` — empezando por la **sesión 0: verificación de idioma** (crear las 11 macros y confirmar que ninguna quedó con ícono "?").
 
-**Métrica de salida:** ✅ Build importado y verificado ✅ UI base configurada + stack de 3 addons funcionando (sArena Reloaded, MiniCC, FrameSort) ✅ 11 macros usadas sin pensar en un skirmish ✅ `02-configuracion/macros_y_ui.md` completado.
+**Métrica de salida:** ✅ Build de S2 importado como loadout nuevo ✅ UI base configurada + stack de addons funcionando (sArena Reloaded, MiniCC, FrameSort) ✅ **11 macros creadas en español, 0 con ícono "?"** ✅ 11 macros usadas sin pensar en un skirmish ✅ Paso 0 de la migración hecho (giro con mouse) + trinket y Cyclone @focus en los laterales ✅ `02-configuracion/macros_y_ui.md` actualizado.
 
 ---
 
