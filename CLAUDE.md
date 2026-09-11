@@ -16,6 +16,7 @@ Sistema personal de entrenamiento PvP (arenas 3v3 y RBG) para un Druida Restaura
 | Archivo | Qué es | Regla de uso |
 |---|---|---|
 | `00-perfil/perfil_jugador.md` | Quién es el jugador, ratings, autodiagnóstico | Contexto base en todos los chats |
+| `00-perfil/glosario_conceptos.md` | DR, tipos de CC, vocabulario de arena, siglas, elementos de la UI | El jugador es nuevo en la terminología. **No asumas conceptos: si usas uno que no está aquí, explícalo en una línea y añádelo** |
 | `01-plan/roadmap_fases.md` | Plan de entrenamiento en 5 fases (0-4) con métricas de salida | La columna vertebral; recalendarizado 2026-09-11 a S2 |
 | `01-plan/fase1_sanacion_bajo_presion.md` | Detalle de Fase 1: 3 modos de sanación, capas defensivas, guerra de maná en S2 | Fuente de verdad de Fase 1 (creado 2026-09-11) |
 | `01-plan/fase2_juego_ofensivo.md` | Detalle de Fase 2: DR, Cyclone, fake casting, posicionamiento anti-CC | Fuente de verdad de Fase 2 |
