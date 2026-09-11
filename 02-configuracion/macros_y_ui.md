@@ -26,9 +26,11 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 
 ### Macros que sé que me faltan
 
-- [ ] Cyclone @focus / @arena1-2-3
-- [ ] Bash @focus
-- [ ] Ironbark @party1 / @party2
+- [ ] Cyclone @focus / @arena1-2-3 (Ciclón)
+- [ ] ~~Bash @focus~~ → **Resto NO tiene Mighty Bash en Midnight.** Tu stun es Prowl+Rake fuera de combate (Acechar + Arañazo) y Maim en combate (Destripar)
+- [ ] Ironbark @party1 / @party2 (Corteza de hierro)
+
+> ⚠️ **Tu cliente está en español:** las 11 macros del proyecto ya están traducidas en `02-configuracion/macros_resto_druid.md`. Escritas en inglés NO funcionan — se crean sin error y no hacen nada. Usa siempre **Shift+clic** sobre el hechizo para que el juego escriba el nombre exacto.
 
 ## Keybinds
 

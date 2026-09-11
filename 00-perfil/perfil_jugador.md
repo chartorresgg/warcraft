@@ -1,25 +1,34 @@
 # Perfil del Jugador — Resto Druid PvP (Midnight)
 
-> Última actualización: 2026-07-11
+> Última actualización: **2026-09-11** (Season 2 en curso desde el 18 de agosto)
 > Instrucción para Claude: usa este perfil como contexto base en todos los chats del proyecto. Si un dato marcado [COMPLETAR] es relevante para tu respuesta, pídelo antes de responder.
 
 ## Identidad del personaje
 
 - **Clase / Spec:** Druida Restauración (Healer)
-- **Hero Talent principal:** Keeper of the Grove
-- **Raza:** Elfa de la noche
+- **Hero Talent principal:** Keeper of the Grove ✅ *(revalidado en S2: 42/50 de los top lo usan)*
+- **Raza:** Elfa de la noche ✅ *(50/50 de los top de 3v3 son Night Elf — Shadowmeld es parte del kit)*
 - **Facción / Servidor:** Alianza - DunModr
-- **iLvl PvP actual:** 298
+- **iLvl PvP actual:** 298 *(⚠️ dato de julio — reverificar: S2 trajo gear nuevo)*
+- **Idioma del cliente:** **Español (esES)** → ⚠️ las macros deben llevar nombres de hechizo en español
 
 ## Ratings y objetivos
 
+> Season 2 arrancó el 18 de agosto de 2026 con reset de rating. Los números de abajo son de S2.
 
-| Bracket      | Mejor rating histórico | Rating actual | Objetivo temporada                  |
-| ------------ | ---------------------- | ------------- | ----------------------------------- |
-| Arenas 3v3   | 1750                   | 0             | Superar 1750 → meta sugerida: 1950+ |
-| RBG          | 2100                   | 0             | Superar 2100 → meta sugerida: 2200+ |
-| Solo Arenas 3v3 | 1784            | 1784   | Herramienta de práctica             |
-| Solo RBG | 1670            | 1670   | Herramienta de práctica             |
+
+| Bracket                      | Mejor histórico | Rating actual (S2) | Partidas        | Win rate | Objetivo                            |
+| ---------------------------- | --------------- | ------------------ | --------------- | -------- | ----------------------------------- |
+| Arenas 3v3 (grupo)           | 1750            | Sin jugar en S2    | —               | —        | Superar 1750 → meta sugerida: 1950+ |
+| RBG (grupo)                  | 2100            | Sin jugar en S2    | —               | —        | Superar 2100 → meta sugerida: 2200+ |
+| **Solo Shuffle**             | 1784 (S1)       | **1094**           | 328 rondas      | **52%**  | Recuperar 1784, luego 1850+         |
+| **Battleground Blitz**       | 1670 (S1)       | **1421**           | 52 partidas     | **38%**  | Estabilizar sobre 50% antes de subir |
+
+### Lectura de estos números (2026-09-11)
+
+- **Shuffle a 52% con el rating en 1094:** el win rate es positivo, así que la caída desde 1784 es el **reset de S2**, no una pérdida de nivel. Estás subiendo, pero lento — y lo haces **sin addons, sin macros y clickeando**, que es precisamente lo que la Fase 0 existe para arreglar.
+- **Blitz a 38% es el problema real.** Es el único número por debajo de 50%, y es tu bracket históricamente fuerte (2100 en RBG de grupo). Hipótesis a validar: Blitz premia supervivencia y posicionamiento bajo presión de 8v8 — exactamente lo que un clicker sin frames de arena no puede sostener.
+- **380 partidas jugadas sin cerrar Fase 0.** Ese es el titular. La experiencia acumulada no se convierte en rating mientras las herramientas sigan sin instalar.
 
 
 
@@ -30,8 +39,9 @@
 - **Días/horarios habituales:** [Fines de semana]
 - **Modo actual:** transición de juego en solitario → equipos coordinados con Discord
 - **Compañeros fijos:** [No tengo equipo. Busco en LFG pero debo buscar hermandades.]
-- **Comps que suelo jugar en 3v3:** [No lo he definido]
+- **Comps que suelo jugar en 3v3:** [No lo he definido] — *referencia S2: la comp de mayor win rate del spec es Resto Druid + Balance Druid + BM Hunter (77,5%)*
 - **Rol en RBG:** [Healer de flag carrier, en ocasiones flag carrier, algunas veces healer de team fight]
+- **Brackets que juega de verdad hoy:** Solo Shuffle y Battleground Blitz (ambos solo queue). El 3v3 y el RBG de grupo están pendientes de tener equipo.
 
 
 
