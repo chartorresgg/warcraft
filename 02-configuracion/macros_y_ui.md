@@ -72,7 +72,7 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 | **Shift+D** | Macro C — Roots @focus (Raíces enredaderas) | ✅ |
 | **R** | Macro D — Wild Charge @party1 (Carga salvaje) | ✅ Escape del tren melee |
 | **V** | Macro #11 — Shadowmeld (Fusión de las sombras) | ✅ |
-| **Shift+1 / Shift+2 / Shift+3** | Macros #4/#5/#6 — Cyclone @arena1/2/3 | ⚠️ **Pendiente** — 4/5/6 ocupadas por curas. Shift+número coincide con los números 1/2/3 que BBP dibuja sobre los enemigos |
+| **Ctrl+1 / Ctrl+2 / Ctrl+3** | Macros #4/#5/#6 — Cyclone @arena1/2/3 | ✅ Elegido 2026-09-12. Coincide con los números 1/2/3 que BBP dibuja sobre los enemigos: ves el "2", pulsas Ctrl+2. **Uso puntual (~10%)**, no de reacción — la incomodidad del modificador es aceptable aquí |
 | *(sin asignar)* | Macros #7 Prowl+Rake · #7b Amputar | ⏸️ **Fase 2** — no bindear todavía |
 
 - **Esquema anterior (histórico):** todo clickeado en las barras de acción; curas en 1-5, defensivos en barra 2. **Superado el 2026-09-12** para las habilidades de reacción.
@@ -117,7 +117,19 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 - [x] ~~**Paso 0: desbindear el giro con teclado**~~ ✅ **Hecho 2026-09-12** — las 4 entradas de "Girar a la izquierda/derecha" en Sin asignar; Q/E de strafe intactas
 - [ ] **Paso 0b: construir el hábito** — practicar mouse turning en mundo abierto y dummies. *Criterio: giras 180° sin pensarlo y sin buscar el teclado* ← 🔴 **es lo que queda de Fase 0**
 - [x] ~~Migrar habilidades de reacción a teclas~~ ✅ **Hecho 2026-09-12** — 10 de 12 binds implementados y verificados (ver mapa arriba)
-- [ ] Asignar Cyclone @arena1/2/3 a **Shift+1/2/3** (las teclas 4/5/6 están ocupadas por curas)
+- [x] ~~Asignar Cyclone @arena1/2/3~~ ✅ **Ctrl+1/2/3** (4/5/6 ocupadas por curas; Shift resultó incómodo)
+
+### Criterio de ubicación de binds (aprendido en la migración)
+
+La tecla se elige por **frecuencia y urgencia**, no por comodidad absoluta:
+
+| Tipo | Dónde va | Ejemplo |
+|---|---|---|
+| **Reacción pura** (salvas una vida en <1 seg) | Sin modificador, pegado a la mano | Trinket y Cyclone @focus en los laterales del ratón; Bear+Frenzied en F; Barkskin en D |
+| **Puntual pero deliberado** (decides con medio segundo de margen) | Con modificador, se acepta la incomodidad | Cyclone @arena1/2/3 en Ctrl+1/2/3 |
+| **Planificado** (lo casteas mirando) | Puede seguir clickeado | Curas base en 1-5 |
+
+⚠️ **Distinguir "incómodo de alcanzar" (reubicar) de "poco familiar" (dar 3 sesiones).** Solo lo primero es un problema de bind.
 - [ ] **Quitar de la barra cada hechizo suelto cuya macro ya esté bindeada** (si no, la mano sigue yendo al ratón y la migración no ocurre)
 - [ ] Anotar teclas incómodas a medida que aparezcan en los drills
 

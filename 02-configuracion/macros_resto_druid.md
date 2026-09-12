@@ -219,7 +219,7 @@ La macro 3 (Cyclone @focus) es tu herramienta principal y depende de tener un en
 | **A / Shift+A**         | A — Ironbark @party1/@party2                       | Liberadas en el paso 0. Externo = reacción       |
 | **Shift+D**             | C — Roots @focus (Raíces enredaderas)              | Peel, junto a los defensivos                     |
 | **R**                   | D — Wild Charge @party1 (Carga salvaje)            | Tu escape del tren melee — fuérzala hasta que sea reflejo |
-| **Shift+1 / Shift+2 / Shift+3** | #4-6 — Cyclone @arena1/2/3                 | ⚠️ **NO uses 4/5/6: están ocupadas por curas** (Recrecimiento, Crecimiento salvaje). Shift+número tiene una ventaja: coincide con los números 1/2/3 que BetterBlizzPlates dibuja sobre las cabezas enemigas — ves el "2" y pulsas Shift+2 |
+| **Ctrl+1 / Ctrl+2 / Ctrl+3** | #4-6 — Cyclone @arena1/2/3                   | ⚠️ **NO uses 4/5/6: están ocupadas por curas** (Recrecimiento, Crecimiento salvaje). Ctrl+número coincide con los números 1/2/3 que BetterBlizzPlates dibuja sobre las cabezas enemigas — ves el "2" y pulsas Ctrl+2. Uso puntual (~10%): el 90% de tus Cyclones salen por #3 @focus |
 | V                       | #11 — Shadowmeld (Fusión de las sombras)           | Accesible pero sin riesgo de toque accidental    |
 | *(Fase 2)*              | #7 Prowl+Rake · #7b Amputar                        | No las bindees aún — material de Fase 2+         |
 
