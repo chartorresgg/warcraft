@@ -8,7 +8,9 @@
 
 ## 📍 Dónde estás realmente (2026-09-11)
 
-El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **Eso no ocurrió:** llevas ~380 partidas jugadas en Season 2 y sigues en Fase 0 — sin addons, sin macros, clickeando.
+> ✅ **ACTUALIZADO 2026-09-12: Fase 0 cerrada.** Addons instalados, 17 macros creadas en español, 12 keybinds implementados y giro con teclado desbindeado. La sección de abajo se conserva como **diagnóstico histórico** — explica de dónde vienen los ratings de la línea base.
+
+El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **Eso no ocurrió:** se jugaron ~380 partidas en Season 2 todavía en Fase 0 — sin addons, sin macros, clickeando.
 
 
 | Bracket            | Rating S2             | Partidas    | Win rate | Lectura                                                                |
@@ -67,7 +69,9 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 
 > 📌 **Recalendarizado el 2026-09-11:** el plan original daba 2 semanas y ~16 h a esta fase. Es una sobreestimación que la volvió fácil de aplazar — y llevas dos meses aplazándola. **El trabajo real son ~4 horas:** 30 min de addons, 40 min de macros, 30 min del paso 0 de keybinds, 15 min de verificación en skirmish, y ~1 h de drills. Cabe en un fin de semana.
 >
-> **Esta fase no tiene archivo propio** (a diferencia de las Fases 1 y 2): es este índice, y el detalle vive en los tres archivos de `02-configuracion/`. La ruta de aplicación paso a paso está abajo, en cada subsección.
+> **Esta fase no tiene archivo propio** (a diferencia de las Fases 1-4): es este índice, y el detalle vive en los tres archivos de `02-configuracion/`. La ruta de aplicación paso a paso está abajo, en cada subsección.
+>
+> 📍 **Para la ruta completa del proyecto entero, ver [`ruta_de_trabajo.md`](ruta_de_trabajo.md).**
 
 
 
@@ -247,7 +251,7 @@ Lo que EXIGES de tus DPS:
 
 
 
-### 3.4 Matchups (guías por arquetipo — pide el desglose completo en el chat cuando llegues aquí)
+### 3.4 Matchups — 📄 **desglose completo en [`03-talentos/matchups.md`](../03-talentos/matchups.md)**
 
 - **Melee cleave:** *Thorns*, jugar cerca de pilares, Bear Form temprano, no gastar trinket en el primer stun.
 - **Caster cleave:** max range agresivo, *Disentanglement* si hay slows, forzar sus casts con presencia de Cyclone.

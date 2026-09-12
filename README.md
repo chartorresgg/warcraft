@@ -6,12 +6,16 @@ Sistema personal de entrenamiento PvP para un **Druida Restauración** (Keeper o
 
 ---
 
-## Por dónde empezar
+## 👉 Por dónde empezar
 
-**Si es tu primera vez aquí, lee en este orden:**
+### **[`01-plan/ruta_de_trabajo.md`](01-plan/ruta_de_trabajo.md) — empieza aquí**
+
+Es la ruta paso a paso de todo el proyecto: qué ya está hecho, qué toca ahora y en qué orden sigue. Si te pierdes entre los 23 documentos, vuelve a ese archivo.
+
+**Si prefieres leer primero la base (30 min):**
 
 1. **[`00-perfil/perfil_jugador.md`](00-perfil/perfil_jugador.md)** — quién eres: ratings, gear, debilidades declaradas
-2. **[`00-perfil/glosario_conceptos.md`](00-perfil/glosario_conceptos.md)** — qué es DR, tipos de CC, vocabulario de arena
+2. **[`00-perfil/glosario_conceptos.md`](00-perfil/glosario_conceptos.md)** — qué es DR, tipos de CC, target vs focus
 3. **[`03-talentos/kit_resto_druid.md`](03-talentos/kit_resto_druid.md)** — qué hace cada hechizo de tu spec
 4. **[`01-plan/roadmap_fases.md`](01-plan/roadmap_fases.md)** — el plan completo en 5 fases
 
@@ -31,6 +35,8 @@ Sistema personal de entrenamiento PvP para un **Druida Restauración** (Keeper o
 
 **Pendiente inmediato:** construir el hábito de *mouse turning* (práctica, no configuración).
 
+**Compromiso abierto:** rellenar el [registro de temporada](04-seguimiento/registro_temporada.md) desde la primera sesión. Es el único documento que solo se llena jugando, y alimenta todo el análisis de Fase 4.
+
 ---
 
 ## Mapa de documentos
@@ -47,6 +53,7 @@ Sistema personal de entrenamiento PvP para un **Druida Restauración** (Keeper o
 
 | Archivo | Qué es |
 |---|---|
+| [`ruta_de_trabajo.md`](01-plan/ruta_de_trabajo.md) | **👉 Empieza aquí.** Ruta paso a paso: lo hecho, lo de ahora y lo que sigue |
 | [`roadmap_fases.md`](01-plan/roadmap_fases.md) | **La columna vertebral.** Las 5 fases con métricas de salida |
 | [`fase1_sanacion_bajo_presion.md`](01-plan/fase1_sanacion_bajo_presion.md) | 3 modos de sanación, capas defensivas, guerra de maná |
 | [`fase2_juego_ofensivo.md`](01-plan/fase2_juego_ofensivo.md) | DR, Cyclone, fake casting, posicionamiento anti-CC |
