@@ -13,8 +13,6 @@
 - **Idioma del cliente:** **Español (esES)** → ⚠️ las macros deben llevar nombres de hechizo en español
 - **Talentos con impacto en la UI/macros:** tiene **Lifetreading** seleccionado → *Efflorescence (Floración)* se coloca sola bajo su objetivo de Lifebloom. **No sugerir macros ni consejos de "colocar la flor"**; lo que controla es en quién pone Lifebloom. *(Verificado in-game 2026-09-12.)*
 
-
-
 ## Ratings y objetivos
 
 > Season 2 arrancó el 18 de agosto de 2026 con reset de rating. Los números de abajo son de S2.
@@ -37,11 +35,16 @@
 - **⚠️ TODOS estos números son PRE-Fase 0.** Se registraron jugando sin addons, sin macros y clickeando. **A partir del 2026-09-12 el jugador tiene herramientas completas**, así que estos ratings dejan de ser comparables: son la línea base contra la que se medirá la mejora, no un diagnóstico vigente.
 - **Próxima medición:** tras 3-4 sesiones con la configuración nueva. Si el Blitz sube solo, confirma que el 38% era falta de herramientas y no de conocimiento del formato.
 
+
+
 ## Gear (actualizado 2026-09-12)
 
 - **iLvl PvP:** 338
-- **Tier set:** 1 de 2 bonificaciones desbloqueadas. ⚠️ **Prioridad de gear: conseguir la segunda.** El 4-piece de S2 gatilla *Genesis* al 100% desde Nature's Swiftness, Tranquility e Incarnation — encaja directamente con tu uso de NS, que ya es tu botón más importante.
-- **Trinkets:** los top de tu bracket usan *Venomous Aspirant's Medallion* + *Venomous Aspirant's Insignia of Alacrity*. Verificar cuáles tienes.
+- Azules de nivel 331: Guantes, Cinturón, Botas, Trinkets, Brazales y Capa.
+- Morados de nivel 344: Cabeza, Collar, Hombros, Pecho, Arma de dos manos, pantalón, anillos.
+- Todos los encantamientos y gemas aplicados.
+- **Tier set:** 1 de 2 bonificaciones desbloqueadas. ⚠️ **Prioridad de gear: conseguir la segunda.** El 4-piece de S2 gatilla *Genesis* al 100% desde Nature's Swiftness, Tranquility e Incarnation — encaja directamente con tu uso de NS, que ya es tu botón más importante. Esto será completado el 16 de septiembre.
+- **Trinkets:** Venomous Aspirant's Medallion y Venomous Aspirant's Insignia of Alacrity.
 
 
 
