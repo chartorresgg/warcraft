@@ -67,7 +67,7 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 0. **Girar con mouse (botón derecho sostenido), no con A/D.** Es el cambio más incómodo y el más importante: el giro con teclado tiene velocidad fija y lenta — en arena no llegas a kitear ni a reaccionar a swaps. Practicar en dummies/mundo hasta que sea natural. A/D dejan de girar y quedan libres.
 1. **Trinket** → botón lateral trasero del mouse
 2. **Cyclone @focus** → botón lateral frontal del mouse
-3. **Dispel**: ya vive en scroll abajo — solo cambiar su contenido por la macro H (@mouseover) de `02-configuracion/macros_resto_druid.md`
+3. **Dispel**: ya vive en scroll abajo — solo cambiar su contenido por la macro H (@mouseover) de `02-configuracion/macros_resto_druid.md`. ✅ *Macro H ya creada y funcionando.*
 4. **Bear+Frenzied (pánico)** → F
 5. **Barkskin** → D (liberada en el paso 0)
 6. **Ironbark @party1 / @party2** → A / Shift+A (liberadas en el paso 0)
@@ -83,8 +83,27 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 
 ## Pendientes de configuración
 
-- [ ] Paso 0 de la migración: giro con mouse, liberar A/D (bloquea todo lo demás)
+- [x] ~~Instalar stack de addons~~ ✅ **Hecho 2026-09-11** (sArena Reloaded + **MiniAuras** + FrameSort + BBP + BBF + Details)
+- [x] ~~Crear las 11 macros obligatorias~~ ✅ **Hecho 2026-09-12** (11/11 + 6 opcionales, todas probadas in-game)
+- [ ] **Paso 0 de la migración: giro con mouse, liberar A/D** ← 🔴 **BLOQUEA TODO LO DEMÁS. Es lo único que queda de Fase 0**
 - [ ] Migrar habilidades de reacción a teclas (pasos 1-6 del plan de arriba)
-- [ ] Instalar stack de addons (sArena Reloaded + MiniCC + FrameSort) — ver `02-configuracion/addons_ui_programas.md`
-- [ ] Crear las 11 macros obligatorias — ver `02-configuracion/macros_resto_druid.md`
+- [ ] **Quitar de la barra cada hechizo suelto cuya macro ya esté bindeada** (si no, la mano sigue yendo al ratón y la migración no ocurre)
 - [ ] Anotar teclas incómodas a medida que aparezcan en los drills
+
+## Regla de sustitución (importante al migrar)
+
+Cuando una macro funciona y tiene tecla asignada, **el hechizo suelto que reemplaza se quita de la barra de acción**. Tener las dos versiones significa que bajo presión clicas la equivocada — y la suelta te cambia el target.
+
+| Macro bindeada | Qué quitar de la barra |
+|---|---|
+| #1, #2, H — Dispel | Cura de la naturaleza suelto |
+| **#3 — Cyclone @focus** | **Ciclón suelto** ← el más importante |
+| #8 — Bear + Frenzied | Forma de oso **y** Regeneración frenética sueltos |
+| #10 — Trinket | *(nada: estaba en la bolsa)* |
+| #11 — Shadowmeld | Fusión de las sombras suelto |
+| A — Ironbark | Corteza de hierro suelto |
+
+⚠️ **Excepciones — NO quitar:**
+- **Nature's Swiftness (Presteza de la Naturaleza)** suelto: las macros #9 y B compiten por él y tiene **una sola carga**. Necesitas poder elegir en el momento si es Cyclone instantáneo o Regrowth de emergencia.
+- **Las curas base** (Rejuvenation, Lifebloom, Regrowth, Wild Growth, Swiftmend): se castean mirando y pueden seguir clickeadas hasta el final. Son las de menor urgencia de reacción.
+- Las macros **#4/#5/#6 (@arena1/2/3)** no sustituyen a la #3: conviven. La #3 es tu uso del 90%.

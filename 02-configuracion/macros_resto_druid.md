@@ -172,20 +172,13 @@ Funcionan, pero **no son macros de Fase 0-1.** Conviene entender por qué antes 
 
 ---
 
-## Macro 12 — Focus @mouseover (nueva, obligatoria)
+## Cómo fijar el focus (sin macro)
 
-La macro 3 (Cyclone @focus) es tu herramienta principal, pero el set **no incluía ninguna forma rápida de poner el focus**. Sin esto tienes que seleccionar al enemigo, escribir `/focus`, y volver a seleccionar a tu aliado.
+La macro 3 (Cyclone @focus) es tu herramienta principal y depende de tener un enemigo en focus.
 
-```
-#showtooltip
-/focus [@mouseover,harm,exists][]
-```
+**Método que usa el jugador: clic derecho sobre el marco enemigo en sArena.** Es más rápido que cualquier macro y no gasta un keybind. *(Se descartó una macro `/focus @mouseover` el 2026-09-12 por innecesaria.)*
 
-**Cómo funciona:** pasas el cursor sobre el enemigo (en pantalla o en su marco de sArena) y pulsas la tecla. Queda fijado como focus **sin perder tu target actual**. Si no hay nadie bajo el cursor, pone en focus a tu objetivo actual.
-
-**Keybind sugerido:** una tecla cómoda pero no crítica — el focus se pone una vez por ronda, no bajo presión. `Shift+F` o similar.
-
-**Rutina de inicio de cada ronda:** identificar al healer enemigo → cursor encima → focus → ya no lo tocas. A partir de ahí tu macro 3 siempre apunta a él.
+**Rutina de inicio de cada ronda:** identificar al healer enemigo → clic derecho en su marco → ya no lo tocas. A partir de ahí tu macro 3 siempre apunta a él.
 
 ---
 
@@ -208,7 +201,7 @@ La macro 3 (Cyclone @focus) es tu herramienta principal, pero el set **no inclu�
 
 ## Keybinds sugeridos (tu configuración: 2 botones laterales de mouse, dispel en scroll)
 
-> ⚠️ Ajuste 2026-07-12: strafeas con Q/E — esas teclas se CONSERVAN como movimiento. Donde esta tabla diga Q o E, usa **A y D** (quedan libres al pasar el giro del personaje al mouse — ver plan de migración en `02-configuracion/macros_y_ui.md`). El resto de la tabla aplica igual.
+> ⚠️ **Q y E NO están disponibles: son tu strafe** (hábito de años, se conserva). Esta tabla ya está corregida para usar **A y D**, que quedan libres tras el paso 0 de la migración (girar con el mouse). Ver `02-configuracion/macros_y_ui.md`.
 
 **Tu scroll abajo: consérvalo, pero cámbiale el contenido por la macro H (@mouseover).** Si el cursor no está sobre nadie, se comporta idéntico a tu bind actual — upgrade sin costo de reaprendizaje.
 
@@ -222,11 +215,13 @@ La macro 3 (Cyclone @focus) es tu herramienta principal, pero el set **no inclu�
 | Ctrl+Scroll abajo       | #2 — Nature's Cure @party2                         | Igual                                            |
 | F                       | #8 — Bear+Frenzied                                 | La tecla de pánico más cómoda cerca de WASD      |
 | Shift+F                 | #9 — NS+Cyclone                                    | Junto a su hermana defensiva                     |
-| Q                       | #7 — Prowl+Rake (y Maim en Shift+R o tecla cómoda) | Reacción ofensiva, dedo índice                   |
-| Shift+Q                 | C — Roots @focus                                   | Misma familia                                    |
+| **D**                   | Barkskin (Piel de corteza)                         | Liberada en el paso 0. Defensivo #1, dedo anular |
+| **A / Shift+A**         | A — Ironbark @party1/@party2                       | Liberadas en el paso 0. Externo = reacción       |
+| **Shift+D**             | C — Roots @focus (Raíces enredaderas)              | Peel, junto a los defensivos                     |
+| **R**                   | D — Wild Charge @party1 (Carga salvaje)            | Tu escape del tren melee — fuérzala hasta que sea reflejo |
 | 4, 5, 6 (o Shift+1/2/3) | #4-6 — Cyclone @arena1/2/3                         | Planificadas, pueden vivir más lejos             |
-| E / Shift+E             | A — Ironbark @party1/@party2                       | Externo = reacción, cerca de WASD                |
-| V                       | #11 — Shadowmeld                                   | Accesible pero sin riesgo de toque accidental    |
+| V                       | #11 — Shadowmeld (Fusión de las sombras)           | Accesible pero sin riesgo de toque accidental    |
+| *(Fase 2)*              | #7 Prowl+Rake · #7b Amputar                        | No las bindees aún — material de Fase 2+         |
 
 
 **Principio:** reacción cerca de WASD (Q, E, R, F, C, V y Shift+); planificado puede vivir lejos. **Test:** si en un skirmish dudas qué tecla es, el bind está mal ubicado, no tu memoria.
