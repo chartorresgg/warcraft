@@ -57,6 +57,26 @@
 
 ---
 
+### Addons y UI para Blitz
+
+Tu stack de arena sirve, pero **hay tres addons ya instalados que tienes desactivados** porque el perfil de Skill Capped los deja para cuando vuelvas a BG. Actívalos antes de tu próxima sesión:
+
+| Addon | Qué hace en Blitz | Estado |
+|---|---|---|
+| **BattleGroundEnemies Fixed** | El "sArena de los battlegrounds": marcos de **los 8 enemigos** con su especialización, y puedes targetearlos desde el marco en cualquier punto del mapa | ⚠️ Instalado, **activar** |
+| **Battleground Win Conditions** | Muestra las condiciones de victoria del mapa actual y cuánto falta | ⚠️ Instalado, **activar** |
+| **Capping Battleground Timers** | Temporizadores de objetivos: capturas, respawns, refuerzos | ⚠️ Instalado, **activar** |
+
+> **BattleGroundEnemies es el que más te cambia el juego.** En arena ves 3 enemigos en sArena; en Blitz hay 8 y sArena no los cubre. Sin este addon no sabes quién es el healer enemigo ni quién lleva la bandera sin buscarlos manualmente.
+
+**Ajuste de FrameSort para Blitz:** en `/fs`, la sección **"Banda (campos de batalla, bandas)"** está desmarcada. Actívala y marca una posición fija para el jugador si quieres orden estable en los marcos de grupo. Es menos crítico que en arena — tus macros `@party1/@party2` solo cubren a 2 de 7 aliados — pero ayuda a la consistencia.
+
+**Lo que NO cambia:** sArena (sigue sirviendo para los enemigos cercanos), MiniAuras, BetterBlizzPlates, BetterBlizzFrames y tus macros. Todo tu setup de arena es válido aquí.
+
+> 💡 **El minimapa importa mucho más en Blitz que en arena.** Cuando hablamos de reducirlo, la decisión fue conservarlo precisamente por esto: en 8v8 con objetivos, la conciencia de mapa es la habilidad que separa a un healer de arena de uno de BG.
+
+---
+
 ## 3. Tu rol: healer de grupo, no de arena
 
 En arena eres un healer de precisión sobre 2 objetivos. En Blitz eres **sanación de área y supervivencia**.
