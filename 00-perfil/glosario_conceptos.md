@@ -75,6 +75,33 @@ Cualquier efecto que impide al enemigo jugar su personaje. No todos son iguales:
 
 ---
 
+## 2b. Target vs Focus (y por qué un healer necesita los dos)
+
+| | Qué es | Cambia |
+|---|---|---|
+| **Target** (objetivo) | A quien tienes seleccionado ahora mismo. Lo que aparece en tu marco de objetivo | **Constantemente** — cada clic o Tab lo reemplaza |
+| **Focus** (foco) | Un segundo objetivo que **fijas a mano** y queda marcado aparte | **Nunca**, hasta que lo cambies o lo borres |
+
+**Por qué importa para ti:** como healer necesitas tener a **tu aliado en target** (para curarlo) mientras controlas al **healer enemigo** (para ciclonearlo). Sin focus, cada Cyclone te obligaría a: seleccionar enemigo → castear → volver a seleccionar aliado → curar. Medio segundo perdido y la vista fuera de tu equipo, cada vez.
+
+Con focus, `Cyclone @focus` va al healer enemigo **sin tocar tu target**. Sigues viendo a tu equipo todo el tiempo.
+
+**Cómo se pone:** con la **macro 12** (`/focus [@mouseover,harm,exists][]`) — cursor sobre el enemigo + tecla. Rutina: al empezar cada ronda, focus al healer enemigo y no lo vuelves a tocar.
+
+**Las unidades que puedes apuntar en una macro:**
+
+| Unidad | A quién apunta |
+|---|---|
+| `@target` | Tu objetivo actual |
+| `@focus` | Tu foco fijado |
+| `@mouseover` | Lo que esté bajo el cursor (unidad o marco) |
+| `@party1` / `@party2` | Tus compañeros por posición en los marcos (por eso FrameSort es crítico) |
+| `@arena1` / `@arena2` / `@arena3` | Los enemigos por posición en los marcos de arena. **Solo existen dentro de una arena** |
+| `@player` | Tú mismo |
+| `@cursor` | La posición del suelo donde apunta el cursor (para Efflorescence) |
+
+---
+
 ## 3. Vocabulario de arena
 
 | Término | Qué significa |

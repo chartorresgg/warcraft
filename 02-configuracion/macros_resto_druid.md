@@ -35,7 +35,8 @@ Tres reglas que se derivan de eso:
 | Frenzied Regeneration | **Regeneración frenética** | ⚠️ Sí — Shift+clic |
 | Prowl | **Acechar** | No |
 | Rake | **Arañazo** | ⚠️ Sí — Shift+clic |
-| Maim | **Destripar** | No |
+| Maim | **Amputar** ⚠️ *(corregido 2026-09-12: el proyecto decía "Destripar", que es **Rip** — un sangrado, no un stun. Verificado in-game por el jugador)* | No |
+| Rip | **Destripar** *(sangrado — NO es tu stun)* | No |
 | Shadowmeld (racial) | **Fusión de las sombras** | ⚠️ Sí — Shift+clic |
 | Entangling Roots | **Raíces enredaderas** | ⚠️ Sí — Shift+clic |
 | Wild Charge | **Carga salvaje** | No |
@@ -71,8 +72,8 @@ Tres reglas que se derivan de eso:
 | 4   | **Cyclone @arena1** (Ciclón)           | `#showtooltip` `/cast [@arena1] Ciclón` ⚠️ Shift+clic                                                                                    | Cyclone al enemigo 1 de los frames de arena                                                                                                       | Cuando el objetivo NO es tu focus (ej: Mage con Combustion)                                                | Control sobre los 3 enemigos sin tocar target ni focus                                                                                                                 |
 | 5   | **Cyclone @arena2** (Ciclón)           | `#showtooltip` `/cast [@arena2] Ciclón` ⚠️ Shift+clic                                                                                    | Igual, enemigo 2                                                                                                                                  | Igual                                                                                                      | Si te satura al inicio, empieza solo con #3 y agrega 4-6 en semana 2                                                                                                   |
 | 6   | **Cyclone @arena3** (Ciclón)           | `#showtooltip` `/cast [@arena3] Ciclón` ⚠️ Shift+clic                                                                                    | Igual, enemigo 3                                                                                                                                  | Igual                                                                                                      | Igual                                                                                                                                                                  |
-| 7   | **Prowl + Rake (tu stun de apertura)** | `#showtooltip Arañazo` `/cast [noform:1] Forma felina` `/cast [nostealth] Acechar` `/cast [stealth] Arañazo` ⚠️ Shift+clic en Arañazo    | Toques sucesivos: Cat Form → Prowl (sigilo) → Rake, que **desde sigilo aturde**. ⚠️ Resto NO tiene Mighty Bash en Midnight — este es tu stun real | Antes de abrir puertas o en transiciones fuera de combate: Prowl → Rake al healer enemigo → Cyclone encima | Es el opener estándar del spec según Icy Veins. Prowl requiere estar fuera de combate; en pelea tu stun es Maim (fila 7b)                                              |
-| 7b  | **Maim (stun en combate)** (Destripar) | `#showtooltip` `/cast Destripar`                                                                                                         | Stun en melee que consume puntos de combo (1-5 seg según combos)                                                                                  | En Cat Form pegado al objetivo: Rake/Shred generan combos → Maim aturde                                    | 49/50 de los top lo talentan. *Forest Guardian* (tu PvP talent) existe para esto: agredir en Cat sin que tus HoTs mueran. Jugada de Fase 2+, no la fuerces en semana 1 |
+| 7   | **Prowl + Rake (tu stun de apertura)** | ⚠️ **REESCRITA 2026-09-12** — ver §"Macro 7 corregida" abajo. La versión anterior alternaba forma felina/humana al pulsarla repetidamente | Cat Form → Prowl (sigilo) → Rake, que **desde sigilo aturde**. ⚠️ Resto NO tiene Mighty Bash en Midnight — este es tu stun real | Antes de abrir puertas o en transiciones fuera de combate: Prowl → Rake al healer enemigo → Cyclone encima | Es el opener estándar del spec según Icy Veins. Prowl requiere estar fuera de combate; en pelea tu stun es Maim (fila 7b)                                              |
+| 7b  | **Maim (stun en combate)** (**Amputar**) | `#showtooltip` `/cast Amputar`                                                                                                         | Stun en melee que consume puntos de combo (1-5 seg según combos). ⚠️ **Corregido:** el proyecto decía "Destripar" — eso es **Rip**, un sangrado | En Cat Form pegado al objetivo: Rake/Shred generan combos → Maim aturde                                    | 49/50 de los top lo talentan. *Forest Guardian* (tu PvP talent) existe para esto: agredir en Cat sin que tus HoTs mueran. Jugada de Fase 2+, no la fuerces en semana 1 |
 | 8   | **Bear + Frenzied Regen**              | `#showtooltip` `/cast [nostance] Forma de oso` `/cast [form:2] Forma de oso` `/cast [form:3] Forma de oso` `/cast [form:1] Regeneración frenética` ⚠️ Shift+clic | 1er toque = Bear Form (desde cualquier forma); 2do toque = Frenzied Regen                                                                         | El swap viene hacia ti y Barkskin no basta: spamea la tecla                                                | Bajo pánico no hay tiempo de "primero forma, luego heal". Un botón = capa defensiva 2 completa                                                                         |
 | 9   | **NS + Cyclone instantáneo**           | `#showtooltip` `/cast Presteza de la Naturaleza` `/cast Ciclón` ⚠️ Shift+clic                                                            | Con *Call of Ohn'ahra*: Cyclone instantáneo, imposible de kickear                                                                                 | Momento clutch: kill window abierto, sin tiempo de hardcast                                                | Con tus 200 ms, el único Cyclone que tu ping no puede arruinar. Variante: última línea `/cast [@focus] Ciclón`                                                         |
 | 10  | **Trinket PvP**                        | `#showtooltip` `/use 14`                                                                                                                 | Usa el accesorio del slot 14 (Medallion). Si está arriba, cambia a `/use 13`                                                                      | Solo con la regla de 3 condiciones (CC completo + aliado/tú <60% + CDs enemigos activos)                   | Trinket clickeado desde bolsa = trinket tarde. Tecla dedicada, siempre la misma. **Sin nombre de hechizo = inmune al idioma** |
@@ -80,6 +81,64 @@ Tres reglas que se derivan de eso:
 
 
 
+
+## 📋 Estado de implementación (probado in-game el 2026-09-12)
+
+| # | Macro | Estado | Nota |
+|---|---|---|---|
+| 1 | Nature's Cure @party1 | ✅ **Implementada** | Funciona con mouseover sobre el marco, sin seleccionar |
+| 2 | Nature's Cure @party2 | ✅ **Implementada** | Igual |
+| 3 | Cyclone @focus | ✅ **Implementada** | Requiere tener un enemigo en focus (ver §Target vs Focus) |
+| 4 | Cyclone @arena1 | ⚠️ **En revisión** | No funciona en escaramuza — diagnóstico pendiente |
+| 5 | Cyclone @arena2 | ⚠️ **En revisión** | Igual |
+| 6 | Cyclone @arena3 | ⚠️ **En revisión** | Igual |
+| 7 | Prowl + Rake | 🔧 **Corregida — reprobar** | La versión original alternaba forma. Nueva versión abajo |
+| 7b | Maim (**Amputar**) | 🔧 **Corregida — reprobar** | Error de traducción: decía "Destripar" (= Rip, sangrado) |
+| 8 | Bear + Frenzied Regen | ✅ **Implementada** | "Funciona perfectamente" |
+| 9 | NS + Cyclone instantáneo | ✅ **Implementada** | |
+| 10 | Trinket (`/use 14`) | ✅ **Implementada** | |
+| 11 | Shadowmeld | ✅ **Implementada** | |
+| **12** | **Focus @mouseover** | 🆕 **Nueva — pendiente** | Faltaba en el set: sin ella, poner focus es manual |
+
+**Resumen: 7 de 11 funcionando.** Las macros 1-3 y 8-11 están cerradas.
+
+---
+
+## Macro 7 corregida (Prowl + Rake)
+
+**Por qué fallaba la anterior:** `/cast [noform:1] Forma felina` intenta entrar en forma felina cuando NO estás en ella. Pero `Forma felina` es un *toggle*: si el juego evalúa mal el estado (o ya estás en gato), la vuelve a lanzar y te saca. De ahí el ciclo gato → humano → gato que observaste.
+
+**Versión corregida** — usa `!` (fuerza la forma, nunca la quita) y `Acechar` también con `!`:
+
+```
+#showtooltip
+/cast [nostealth,noform:2] !Forma felina
+/cast [form:2,nostealth] !Acechar
+/cast [stealth] Arañazo
+```
+
+> ⚠️ **`form:2` asume que Forma felina es tu segunda forma.** El número depende de qué formas tengas aprendidas. Si no funciona, prueba `form:1` o `form:3`. Comprobación rápida: escribe `/script print(GetShapeshiftForm())` en el chat estando en forma felina — te dice el número exacto.
+
+**Cómo usarla:** tres pulsaciones sucesivas. 1ª → forma felina. 2ª → sigilo. 3ª → Arañazo (que desde sigilo aturde). El `!` impide que salgas de la forma por pulsar de más.
+
+---
+
+## Macro 12 — Focus @mouseover (nueva, obligatoria)
+
+La macro 3 (Cyclone @focus) es tu herramienta principal, pero el set **no incluía ninguna forma rápida de poner el focus**. Sin esto tienes que seleccionar al enemigo, escribir `/focus`, y volver a seleccionar a tu aliado.
+
+```
+#showtooltip
+/focus [@mouseover,harm,exists][]
+```
+
+**Cómo funciona:** pasas el cursor sobre el enemigo (en pantalla o en su marco de sArena) y pulsas la tecla. Queda fijado como focus **sin perder tu target actual**. Si no hay nadie bajo el cursor, pone en focus a tu objetivo actual.
+
+**Keybind sugerido:** una tecla cómoda pero no crítica — el focus se pone una vez por ronda, no bajo presión. `Shift+F` o similar.
+
+**Rutina de inicio de cada ronda:** identificar al healer enemigo → cursor encima → focus → ya no lo tocas. A partir de ahí tu macro 3 siempre apunta a él.
+
+---
 
 ## OPCIONALES — agregar en semanas 2-4, en este orden
 
