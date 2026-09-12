@@ -56,7 +56,9 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 
 - **Esquema general:** Todo clickeado en las barras de acción. Curas en los slots 1-5 de la barra principal; defensivos en la barra 2, justo encima de los hechizos de la principal.
 - **Scroll Mouse:** Scroll abajo: Disipar efectos (Nature's Cure)
-- **Movimiento:** W adelante, S atrás, **Q/E strafe**, **A/D giran el personaje** (keyboard turning — ⚠️ a eliminar, ver plan de migración)
+- **Movimiento (actualizado 2026-09-12):** W adelante, S atrás, **Q/E strafe**. ✅ **A/D liberadas** — el giro con teclado quedó desbindeado (las 4 entradas: A, D, Flecha izquierda, Flecha derecha). Ahora se gira con **clic derecho sostenido**.
+  - **Esquema de mouse en uso:** clic derecho sostenido = girar el personaje · clic izquierdo sostenido = cámara libre (mirar atrás sin girarse) · ambos botones = *mouse running* (caminar + girar con la mano derecha, mano izquierda libre para habilidades) · clic derecho suelto en el suelo = movimiento por clic.
+  - **Vel. giro cámara con ratón: 10** (máximo). Si sobregira al practicar, bajar a 7-8.
 - **¿Clicker o keybinder?:** Clicker, en proceso de migración a keybinds (declarado 2026-07-12). Prioridad de migración: habilidades de REACCIÓN primero (trinket, dispel, Bear+Frenzied, Barkskin, Ironbark) — las planificadas pueden esperar.
 - **Teclas incómodas que evito usar en momentos de presión:** Sin identificar aún. Regla de detección durante los drills: si bajo presión dudas qué tecla es, el bind está mal ubicado — anotarla aquí y reubicar.
 
@@ -92,7 +94,8 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 
 - [x] ~~Instalar stack de addons~~ ✅ **Hecho 2026-09-11** (sArena Reloaded + **MiniAuras** + FrameSort + BBP + BBF + Details)
 - [x] ~~Crear las 11 macros obligatorias~~ ✅ **Hecho 2026-09-12** (11/11 + 6 opcionales, todas probadas in-game)
-- [ ] **Paso 0 de la migración: giro con mouse, liberar A/D** ← 🔴 **BLOQUEA TODO LO DEMÁS. Es lo único que queda de Fase 0**
+- [x] ~~**Paso 0: desbindear el giro con teclado**~~ ✅ **Hecho 2026-09-12** — las 4 entradas de "Girar a la izquierda/derecha" en Sin asignar; Q/E de strafe intactas
+- [ ] **Paso 0b: construir el hábito** — practicar mouse turning en mundo abierto y dummies. *Criterio: giras 180° sin pensarlo y sin buscar el teclado* ← 🔴 **es lo que queda de Fase 0**
 - [ ] Migrar habilidades de reacción a teclas (pasos 1-6 del plan de arriba)
 - [ ] **Quitar de la barra cada hechizo suelto cuya macro ya esté bindeada** (si no, la mano sigue yendo al ratón y la migración no ocurre)
 - [ ] Anotar teclas incómodas a medida que aparezcan en los drills
