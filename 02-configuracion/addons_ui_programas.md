@@ -31,7 +31,7 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 | **Gestor de tiempos de reutilización** (Cooldown Manager)                                    | Modo de edición (Edit Mode)               | Tracker nativo de tus CDs ofensivos/defensivos/utilidad. Wowhead tiene strings de importación por clase ("starter UI pack") — importa el de Druid |
 | **Números de tiempo de reutilización en las barras** (cooldown numbers)                      | Opciones → Barras de acción (Action Bars) | Reemplaza a OmniCC. Actívalo y no instales nada para esto                                                                                         |
 | **Barras de lanzamiento en placas de nombre enemigas** (cast bars on nameplates)             | Opciones → Placas de nombre (Nameplates)  | La mejora de legibilidad #1 según las guías: ves cada cast enemigo sobre su cabeza                                                                |
-| **Placas de nombre siempre visibles + apilado vertical** (always show nameplates / stacking) | Opciones → Placas de nombre (Nameplates)  | Con solo TUS debuffs mostrados (lo demás lo pone MiniCC)                                                                                          |
+| **Placas de nombre siempre visibles + apilado vertical** (always show nameplates / stacking) | Opciones → Placas de nombre (Nameplates)  | Con solo TUS debuffs mostrados (lo demás lo pone MiniAuras)                                                                                          |
 | **Retratos como íconos de clase** (class icon portraits)                                     | Opciones → Interfaz (Interface)           | Lees la comp enemiga de un vistazo                                                                                                                |
 | **Marcos de banda: barra de poder + colores de clase + mostrar mascotas** (raid frames)      | Opciones → Marcos de banda (Raid Frames)  | Ves el maná del healer aliado y distingues clases al instante                                                                                     |
 | **Lectura de DR en los marcos de arena** (diminishing returns)                               | Nativa desde 12.0                         | El juego ya muestra diminishing returns en los frames — antes esto requería addon                                                                 |
@@ -50,9 +50,9 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 | Addon                                       | Reemplaza a                                    | Qué hace                                                                                                                                                                                                              | Prioridad                                  |
 | ------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | **sArena Reloaded**                         | Gladius                                        | El nuevo estándar de frames de arena: frames espejados, barras con color de clase, cast bars grandes, trinket y racial por enemigo, categorías de DR junto a las barras de vida                                       | 🔴 Obligatorio                             |
-| **MiniCC**                                  | BigDebuffs + OmniBar + WeakAuras (todo en uno) | CC gigante en frames y nameplates, tracking de CDs enemigos (kicks, ofensivos), **alerta de "tu healer está en CC"**, alerta de CDs ofensivos enemigos, indicador de precognition (kicks jukeados)                    | 🔴 Obligatorio                             |
+| **MiniAuras**                                  | BigDebuffs + OmniBar + WeakAuras (todo en uno) | CC gigante en frames y nameplates, tracking de CDs enemigos (kicks, ofensivos), **alerta de "tu healer está en CC"**, alerta de CDs ofensivos enemigos, indicador de precognition (kicks jukeados)                    | 🔴 Obligatorio                             |
 | **FrameSort**                               | — (nuevo imprescindible)                       | **Fija el orden de tus raid frames: party1 y party2 SIEMPRE en la misma posición entre rondas.** Sin esto, tus macros @party1/@party2 le pegan a la persona equivocada cuando el orden cambia entre rondas de Shuffle | 🔴 Obligatorio — tus macros dependen de él |
-| **OmniBar**                                 | — (sobrevivió)                                 | Barra de CDs enemigos clásica. Redundante si MiniCC te basta; algunos prefieren su formato de barra separada para kicks                                                                                               | 🟡 Opcional                                |
+| **OmniBar**                                 | — (sobrevivió)                                 | Barra de CDs enemigos clásica. Redundante si MiniAuras te basta; algunos prefieren su formato de barra separada para kicks                                                                                               | 🟡 Opcional                                |
 | **BetterBlizzPlates** (+ BetterBlizzFrames) | Plater parcialmente                            | Retoque fino de los nameplates nativos: tamaño, color, orden, IDs de arena en vez de nombres                                                                                                                          | 🟡 Opcional                                |
 | **Diminish**                                | —                                              | Tracking de DR dedicado. Redundante con el DR nativo + sArena para empezar; útil si quieres más detalle en Fase 2                                                                                                     | 🟡 Opcional                                |
 | **TalentLoadoutsEx**                        | —                                              | Cambio rápido de loadouts de talentos entre rondas/partidas — útil cuando llegues a los swaps de matchup (Fase 4)                                                                                                     | 🟡 Opcional                                |
@@ -61,7 +61,7 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 | ~~OmniCC~~                                  | —                                              | Innecesario: números de CD nativos                                                                                                                                                                                    | ⛔                                          |
 
 
-**Atajo recomendado — Skill Capped UI (addon):** Skill Capped publicó un addon que instala y **auto-configura los perfiles de todo el stack anterior en un clic** (sArena Reloaded con DR visible, MiniCC completo, FrameSort con tu personaje abajo, Edit Mode centrado, más ajustes ocultos). Dado que ya usas Skill Capped como fuente, es la ruta de menor fricción: resultado profesional en 10 minutos en vez de una tarde de configuración manual. Búscalo como "Skill Capped UI" en su web/CurseForge. Si prefieres control total, configura manualmente con las tablas de arriba.
+**Atajo recomendado — Skill Capped UI (addon):** Skill Capped publicó un addon que instala y **auto-configura los perfiles de todo el stack anterior en un clic** (sArena Reloaded con DR visible, MiniAuras completo, FrameSort con tu personaje abajo, Edit Mode centrado, más ajustes ocultos). Dado que ya usas Skill Capped como fuente, es la ruta de menor fricción: resultado profesional en 10 minutos en vez de una tarde de configuración manual. Búscalo como "Skill Capped UI" en su web/CurseForge. Si prefieres control total, configura manualmente con las tablas de arriba.
 
 ## 4. PASO 3 — Programas de escritorio
 
@@ -83,7 +83,7 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 
 ## 5. Orden de instalación (una sesión de ~1 hora)
 
-1. Instalar **CurseForge App** → con él instalar **sArena Reloaded, MiniCC, FrameSort** (o el addon **Skill Capped UI** que configura todo).
+1. Instalar **CurseForge App** → con él instalar **sArena Reloaded, MiniAuras, FrameSort** (o el addon **Skill Capped UI** que configura todo).
 2. Configurar la **UI base** con la tabla del Paso 1 (15 min). Importar el Gestor de tiempos de reutilización (Cooldown Manager) de Druid desde el starter pack de Wowhead.
 3. Entrar a un **combate de prueba / skirmish** y verificar que ves: (a) DR en los marcos de arena, (b) CC gigante en los marcos, (c) tu orden de grupo fijo, (d) barras de lanzamiento enemigas en las placas de nombre (nameplates).
 4. Probar las macros @party1/@party2 con FrameSort activo: confirmar que party1 es SIEMPRE el marco de arriba.
@@ -95,7 +95,7 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 ## 6. Reglas simplificadas
 
 1. **UI base primero, addons después.** Blizzard ya te da DR, cooldown numbers, cast bars y defensivos externos gratis.
-2. **El stack 2026 son 3 addons:** sArena Reloaded + MiniCC + FrameSort. Todo lo demás es opcional.
+2. **El stack 2026 son 3 addons:** sArena Reloaded + MiniAuras + FrameSort. Todo lo demás es opcional.
 3. **FrameSort no es cosmético: es infraestructura de tus macros.** Sin orden fijo de party, @party1/@party2 son ruleta rusa en Shuffle.
 4. **WeakAuras murió — que ninguna guía vieja te lo haga instalar.** Lo mismo OmniCC y los rotation helpers.
 5. **Un solo gestor de addons** (CurseForge App) y **un solo programa extra** por ahora (OBS). Overwolf, WarcraftLogs y Archon no aportan a un jugador 100% PvP.
@@ -116,7 +116,7 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 | Perfil                                                   | ¿Gratis?                 | Qué te da su perfil pre-configurado                                                                                                                                                                                                 |
 | -------------------------------------------------------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **sArena Reloaded**                                      | ✅                        | Categorías de DR a la IZQUIERDA de las barras de vida, cast bar con más margen (casts visibles de un vistazo), íconos de dispel y racial reubicados sin solaparse                                                                   |
-| **MiniCC**                                               | ✅                        | Todo configurado: CC claro, tracking de CDs, alerta de CDs ofensivos enemigos y **notificación de "tu healer está en CC"**                                                                                                          |
+| **MiniAuras**                                               | ✅                        | Todo configurado: CC claro, tracking de CDs, alerta de CDs ofensivos enemigos y **notificación de "tu healer está en CC"**                                                                                                          |
 | **FrameSort**                                            | ✅                        | Tu personaje SIEMPRE abajo en los raid frames → party1/party2 fijos → tus macros nunca fallan                                                                                                                                       |
 | **BetterBlizzPlates**                                    | ✅                        | CC a la derecha de los nameplates enemigos, DoTs arriba, borde blanco en tu target, **números 1/2/3 sobre cada enemigo** (sabes a quién le pega cada macro @arena), **contador de combo points bajo tu target** (tu Maim de Fase 2) |
 | **BetterBlizzFrames**                                    | ✅                        | Menos clutter + indicador de combate que avisa **cuándo el healer enemigo puede beber** (¡y cuándo puedes tú!) y cuándo un Rogue puede sapearte                                                                                     |
@@ -146,7 +146,7 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 1. **CurseForge App → buscar "Skill Capped UI" → Install** (o desde skill-capped.com/wow/addons). Instalará también los addons del stack si te faltan.
 2. Entrar al juego → aparece la **pantalla de bienvenida del addon**.
 3. El campo de Battle.net tag / código premium es **solo para suscriptores** — sáltalo o déjalo vacío: los perfiles core son gratis.
-4. En la pantalla de selección: **marcar los 6 perfiles core** (sArena, MiniCC, FrameSort, BBP, BBF, Details). Los de BG puedes marcarlos ya o esperar a S2. → **Install**.
+4. En la pantalla de selección: **marcar los 6 perfiles core** (sArena, MiniAuras, FrameSort, BBP, BBF, Details). Los de BG puedes marcarlos ya o esperar a S2. → **Install**.
 5. `/reload` y revisar el **Edit Mode**: el perfil centra raid frames y focus frame a la misma distancia periférica de los frames de arena — si algo te estorba, se arrastra desde ahí sin romper nada.
 
 
@@ -156,7 +156,7 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 - ☐ Marcos de arena con DR visible a la izquierda de las barras
 - ☐ Números 1/2/3 sobre las placas de nombre (nameplates) enemigas → probar Cyclone (Ciclón) @arena1 contra el correcto
 - ☐ Tu personaje abajo en los marcos de banda (raid frames) → probar dispel @party1 y @party2
-- ☐ Alerta de MiniCC visible (que un enemigo te CCee y mira la notificación)
+- ☐ Alerta de MiniAuras visible (que un enemigo te CCee y mira la notificación)
 - ☐ Barras de lanzamiento (cast bars) enemigas legibles a un vistazo
 - ☐ FPS estables (si bajan de tus 58 habituales, desactivar Details primero)
 - ☐ **Las 11 macros sin ícono "?"** — si alguna lo tiene, el nombre del hechizo está mal escrito (ver `macros_resto_druid.md`)

@@ -51,7 +51,17 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 
 
 
-## FASE 0 — Cimientos técnicos (Semana 1, ~4 h de trabajo real)
+## ✅ FASE 0 — COMPLETADA el 2026-09-12
+
+> **Cerrada en dos sesiones.** 0.1 build revalidado · 0.2 addons instalados y verificados · 0.3 macros (11 obligatorias + 6 opcionales, todas probadas) · 0.4 keybinds (12/12, giro con teclado desbindeado).
+>
+> **Único pendiente:** construir el hábito de *mouse turning* con práctica. No es configuración — es repetición.
+>
+> **Línea base antes de Fase 0** (para medir la mejora): Solo Shuffle ~1110 · Blitz ~1400 · iLvl 338. Todos esos números se lograron sin herramientas.
+
+---
+
+## FASE 0 — Cimientos técnicos (referencia)
 
 **Objetivo:** dejar de jugar con desventaja de herramientas. Hoy juegas sin addons y sin macros: es como ir al gimnasio en sandalias. Antes de entrenar técnica, necesitas el equipo.
 
@@ -80,8 +90,8 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 
 | Addon            | Para qué                                                                                                 |
 | ---------------- | -------------------------------------------------------------------------------------------------------- |
-| **daddReloaded** | Frames de arena con trinket, racial y categorías de DR por enemigo                                       |
-| **MiniCC**       | CC gigante en frames, tracking de CDs enemigos (kicks, ofensivos), alerta de "tu healer está en CC"      |
+| **sArena Reloaded** | Frames de arena con trinket, racial y categorías de DR por enemigo                                       |
+| **MiniAuras**       | CC gigante en frames, tracking de CDs enemigos (kicks, ofensivos), alerta de "tu healer está en CC"      |
 | **FrameSort**    | Orden fijo de party1/party2 entre rondas — sin él, tus macros @party1/@party2 son ruleta rusa en Shuffle |
 
 
@@ -107,7 +117,7 @@ Resumen del set: Nature's Cure `@party1`/`@party2` · Cyclone `@focus` y `@arena
 
 **Ejercicio (sin colas):** las 4 sesiones del drill de `02-configuracion/macros_resto_druid.md` — empezando por la **sesión 0: verificación de idioma** (crear las 11 macros y confirmar que ninguna quedó con ícono "?").
 
-**Métrica de salida:** ✅ Build de S2 importado como loadout nuevo ✅ UI base configurada + stack de addons funcionando (sArena Reloaded, MiniCC, FrameSort) ✅ **11 macros creadas en español, 0 con ícono "?"** ✅ 11 macros usadas sin pensar en un skirmish ✅ Paso 0 de la migración hecho (giro con mouse) + trinket y Cyclone @focus en los laterales ✅ `02-configuracion/macros_y_ui.md` actualizado.
+**Métrica de salida:** ✅ Build de S2 importado como loadout nuevo ✅ UI base configurada + stack de addons funcionando (sArena Reloaded, MiniAuras, FrameSort) ✅ **11 macros creadas en español, 0 con ícono "?"** ✅ 11 macros usadas sin pensar en un skirmish ✅ Paso 0 de la migración hecho (giro con mouse) + trinket y Cyclone @focus en los laterales ✅ `02-configuracion/macros_y_ui.md` actualizado.
 
 ---
 
@@ -165,7 +175,7 @@ Resumen del set: Nature's Cure `@party1`/`@party2` · Cyclone `@focus` y `@arena
 
 ### 2.2 Cyclone — árbol de decisión
 
-- **Cuándo es seguro hardcastear:** (a) el kick del melee que te presiona está en CD (míralo en MiniCC u OmniBar), (b) estás fuera de línea del caster con interrupt, o (c) tienes *Nature's Swiftness* para hacerlo instantáneo (el build estándar lo permite vía PvP talent — clave con tu latencia).
+- **Cuándo es seguro hardcastear:** (a) el kick del melee que te presiona está en CD (míralo en MiniAuras u OmniBar), (b) estás fuera de línea del caster con interrupt, o (c) tienes *Nature's Swiftness* para hacerlo instantáneo (el build estándar lo permite vía PvP talent — clave con tu latencia).
 - **Objetivos por situación:** healer enemigo durante el go de tus DPS (el uso #1); DPS enemigo con CDs ofensivos activos durante SU go (Cyclone defensivo — inmuniza y anula su ventana); target a punto de recibir sanación grande.
 - **Tu latencia (192-201 ms) importa:** el enemigo ve tu cast ~0.2 seg tarde y tú ves su kick tarde. Traducción: con kick enemigo disponible, NO hardcastees Cyclone en su línea de visión — usa NS o castea desde posición donde el kicker no te ve. Reserva los hardcasts para cuando contaste el kick.
 
@@ -174,7 +184,7 @@ Resumen del set: Nature's Cure `@party1`/`@party2` · Cyclone `@focus` y `@arena
 ### 2.3 Fake casting con 200 ms
 
 - Tu fake debe cortarse ANTES de lo que tu instinto dice (el enemigo reacciona a información vieja tuya). Drill: en skirmish/Shuffle, dedica rondas a fakear Cyclone/Regrowth contra melees hasta sacar 2 kicks por ronda sin ser interrumpido.
-- Cuenta los kicks enemigos en voz alta (literalmente): "kick del Warrior usado, 15 seg". MiniCC te lo muestra, pero verbalizar construye el hábito para cuando cantees en Discord.
+- Cuenta los kicks enemigos en voz alta (literalmente): "kick del Warrior usado, 15 seg". MiniAuras te lo muestra, pero verbalizar construye el hábito para cuando cantees en Discord.
 
 
 

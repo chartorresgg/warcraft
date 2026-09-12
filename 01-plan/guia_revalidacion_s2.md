@@ -40,7 +40,7 @@
 | # | Paso | Fuente | Hecho |
 |---|---|---|---|
 | 1 | Leer el changelog de Resto Druid PvP | Icy Veins (registro de cambios al pie de cada página de la guía de Mysticall) | ☐ |
-| 2 | **Actualizar addons** (CurseForge → Update All) y verificar en un skirmish que sArena/MiniCC/FrameSort sobrevivieron al parche | CurseForge App | ☐ |
+| 2 | **Actualizar addons** (CurseForge → Update All) y verificar en un skirmish que sArena/MiniAuras/FrameSort sobrevivieron al parche | CurseForge App | ☐ |
 | 3 | **Re-verificar TODAS las macros con Shift+clic** — los reworks renombran hechizos y una macro con nombre viejo muere en silencio. Ícono "?" = macro rota | In-game, editor de macros | ☐ |
 | 4 | Importar el build nuevo de Skill Capped (botón Copy Import String) — NO parchear el loadout viejo: crear "SC Standard S2" | skill-capped.com → Resto Druid → Talents | ☐ |
 | 5 | Configurar el indicador nativo de kicks fallados | Opciones/Edit Mode | ☐ |

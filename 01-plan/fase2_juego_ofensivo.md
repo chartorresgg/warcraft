@@ -17,7 +17,7 @@
 
 | Tu habilidad (EN → ES) | Categoría | Comparte DR con (ejemplos enemigos) |
 |---|---|---|
-| **Rake (desde Prowl)** (Arañazo) y **Maim** (Destripar) | Stun | Kidney Shot, Storm Bolt, Hammer of Justice, Cheap Shot |
+| **Rake (desde Prowl)** (Arañazo) y **Maim** (**Amputar**) | Stun | Kidney Shot, Storm Bolt, Hammer of Justice, Cheap Shot |
 | **Cyclone** (Ciclón) | Disorient | Fear, Dragon's Breath, Blind |
 | **Incapacitating Roar** (Rugido incapacitante) | Incapacitante/Disorient — *verificar tooltip in-game en tu build* | Polymorph, Freezing Trap (históricamente) |
 | **Entangling Roots / Mass Entanglement / Ursol's Vortex** (Raíces enredaderas / Enredo masivo / Vórtice de Ursol) | Root | Frost Nova, raíces de Hunter |
@@ -43,7 +43,7 @@
 
 ### ¿Cuándo es seguro hardcastear? (checklist de 1 segundo)
 
-- ✅ El kick del melee que te presiona está en CD (MiniCC/OmniBar te lo muestra)
+- ✅ El kick del melee que te presiona está en CD (MiniAuras/OmniBar te lo muestra)
 - ✅ Estás fuera de línea de visión del caster con interrupt
 - ✅ O tienes NS disponible (Call of Ohn'ahra = instantáneo, incastigable)
 - ❌ Kick enemigo disponible + estás visible = NO hardcastees. Con tus 200 ms el enemigo ve tu cast tarde pero tú ves su kick MÁS tarde: pierdes ese duelo de reflejos siempre. Muévete de LoS o usa NS.
@@ -62,7 +62,7 @@ El fake cast estándar: empiezas un cast visible, lo cortas antes de completarlo
 |---|---|
 | Corta ANTES de tu instinto | Tu barra local va adelantada respecto a lo que el enemigo ve. Si esperas a "ver venir" el kick, ya te llegó. Fakea por ritmo (cortar a ~40-60% del cast), no por reacción |
 | Fakea con hechizos baratos | Regrowth es tu señuelo natural: barato de cortar, creíble como amenaza. Nunca fakees con el Cyclone que sí necesitas |
-| Usa el indicador de precognition | MiniCC incluye alerta de kick jukeado: cuando el enemigo kickea al aire, te avisa → esa es tu ventana dorada de hardcast |
+| Usa el indicador de precognition | MiniAuras incluye alerta de kick jukeado: cuando el enemigo kickea al aire, te avisa → esa es tu ventana dorada de hardcast |
 | Cuenta kicks en voz alta | "Kick del Warrior usado, 15 seg" — literal, hablando solo. Construye el hábito de canteo para Fase 3 y consolida el tracking mental |
 
 ### El drill (sesiones de Shuffle, foco único)
@@ -95,7 +95,7 @@ Tus DPS anuncian go (3-5 seg antes)
 ### Cadena C — Anti-go (defensiva ofensiva)
 
 ```
-Detectas CDs ofensivos enemigos (MiniCC alerta)
+Detectas CDs ofensivos enemigos (MiniAuras alerta)
 → Ironbark al objetivo + Barkskin si es sobre ti
 → Cyclone al DPS enemigo con CDs (su ventana muere)
 → o Roots al melee (categoría root, barata en DR)

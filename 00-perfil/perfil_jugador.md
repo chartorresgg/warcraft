@@ -24,17 +24,24 @@
 | ---------------------- | --------------- | ------------------ | ----------- | -------- | ------------------------------------ |
 | Arenas 3v3 (grupo)     | 1750            | Sin jugar en S2    | —           | —        | Superar 1750 → meta sugerida: 1950+  |
 | RBG (grupo)            | 2100            | Sin jugar en S2    | —           | —        | Superar 2100 → meta sugerida: 2200+  |
-| **Solo Shuffle**       | 1784 (S1)       | **1094**           | 328 rondas  | **52%**  | Recuperar 1784, luego 1850+          |
-| **Battleground Blitz** | 1670 (S1)       | **1421**           | 52 partidas | **38%**  | Estabilizar sobre 50% antes de subir |
+| **Solo Shuffle**       | 1784 (S1)       | **1110**           | 328 rondas  | **52%**  | Recuperar 1784, luego 1850+          |
+| **Battleground Blitz** | 1670 (S1)       | **1400**           | 52 partidas | **38%**  | Estabilizar sobre 50% antes de subir |
 
 
 
 
-### Lectura de estos números (2026-09-11)
+### Lectura de estos números (actualizado 2026-09-12)
 
-- **Shuffle a 52% con el rating en 1094:** el win rate es positivo, así que la caída desde 1784 es el **reset de S2**, no una pérdida de nivel. Estás subiendo, pero lento — y lo haces **sin addons, sin macros y clickeando**, que es precisamente lo que la Fase 0 existe para arreglar.
+- **Shuffle a 52% con el rating en ~1110:** el win rate es positivo, así que la caída desde 1784 es el **reset de S2**, no una pérdida de nivel.
 - **Blitz a 38% es el problema real.** Es el único número por debajo de 50%, y es tu bracket históricamente fuerte (2100 en RBG de grupo). Hipótesis a validar: Blitz premia supervivencia y posicionamiento bajo presión de 8v8 — exactamente lo que un clicker sin frames de arena no puede sostener.
-- **380 partidas jugadas sin cerrar Fase 0.** Ese es el titular. La experiencia acumulada no se convierte en rating mientras las herramientas sigan sin instalar.
+- **⚠️ TODOS estos números son PRE-Fase 0.** Se registraron jugando sin addons, sin macros y clickeando. **A partir del 2026-09-12 el jugador tiene herramientas completas**, así que estos ratings dejan de ser comparables: son la línea base contra la que se medirá la mejora, no un diagnóstico vigente.
+- **Próxima medición:** tras 3-4 sesiones con la configuración nueva. Si el Blitz sube solo, confirma que el 38% era falta de herramientas y no de conocimiento del formato.
+
+## Gear (actualizado 2026-09-12)
+
+- **iLvl PvP:** 338
+- **Tier set:** 1 de 2 bonificaciones desbloqueadas. ⚠️ **Prioridad de gear: conseguir la segunda.** El 4-piece de S2 gatilla *Genesis* al 100% desde Nature's Swiftness, Tranquility e Incarnation — encaja directamente con tu uso de NS, que ya es tu botón más importante.
+- **Trinkets:** los top de tu bracket usan *Venomous Aspirant's Medallion* + *Venomous Aspirant's Insignia of Alacrity*. Verificar cuáles tienes.
 
 
 
