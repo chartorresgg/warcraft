@@ -38,7 +38,9 @@ Sistema personal de entrenamiento PvP (arenas 3v3 y RBG) para un Druida Restaura
 
 ## Estado actual (actualizar al avanzar)
 
-- **Fase actual: 0 (Cimientos técnicos)** — sin addons ni macros instalados aún, pese a llevar ~380 partidas jugadas en S2. Cerrar Fase 0 es el cuello de botella declarado.
+- **Fase actual: 0 (Cimientos técnicos), a medias.** ✅ **0.2 addons COMPLETADA** el 2026-09-11 (stack instalado y verificado en skirmish — detalle en `02-configuracion/macros_y_ui.md`). ❌ Pendientes: **0.3 macros** (ninguna creada aún — es el bloqueo real) y **0.4 keybinds** (sigue siendo clicker, paso 0 de la migración sin hacer).
+- ⚠️ **El addon se llama MiniAuras, no "MiniCC".** El nombre "MiniCC" de los documentos de julio nunca se verificó contra la instalación real. Usa MiniAuras.
+- **El jugador es nuevo en la terminología de PvP** (preguntó qué es DR tras cinco documentos usándolo). Ver `00-perfil/glosario_conceptos.md` y no asumir conceptos.
 - **Ratings S2 (2026-09-11):** Solo Shuffle 1094 (328 rondas, 52% WR) · Battleground Blitz 1421 (52 partidas, 38% WR). La caída desde 1784/1670 es el reset de S2, no pérdida de nivel — el WR de Shuffle es positivo. **Blitz a 38% es el problema real.**
 - **El jugador es clicker, en proceso de migración a keybinds** (declarado 2026-07-12). Todo clickeado: curas en 1-5, defensivos en barra 2. Las habilidades de reacción deben migrar a teclas ANTES de cerrar Fase 0 — plan incremental en `02-configuracion/macros_y_ui.md`.
 - **Movimiento: W/S adelante-atrás, Q/E strafe, A/D giran (keyboard turning).** El paso 0 de la migración es girar con mouse y liberar A/D como teclas de habilidad. Q/E se conservan como strafe — NO sugerirlas para habilidades.

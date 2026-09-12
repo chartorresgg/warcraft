@@ -43,7 +43,7 @@ Blizzard introdujo los **"Secret Values"** en 12.0: los addons ya no pueden leer
 | Addon | Reemplaza a | Qué hace | Prioridad |
 |---|---|---|---|
 | **sArena Reloaded** | Gladius | El nuevo estándar de frames de arena: frames espejados, barras con color de clase, cast bars grandes, trinket y racial por enemigo, categorías de DR junto a las barras de vida | 🔴 Obligatorio |
-| **MiniCC** | BigDebuffs + OmniBar + WeakAuras (todo en uno) | CC gigante en frames y nameplates, tracking de CDs enemigos (kicks, ofensivos), **alerta de "tu healer está en CC"**, alerta de CDs ofensivos enemigos, indicador de precognition (kicks jukeados) | 🔴 Obligatorio |
+| **MiniAuras** ⚠️ *(en CurseForge y en el juego aparece como **MiniAuras**, no "MiniCC" — verificado contra la instalación real el 2026-09-11)* | BigDebuffs + OmniBar + WeakAuras (todo en uno) | CC gigante en frames y nameplates, tracking de CDs enemigos (kicks, ofensivos), **alerta de "tu healer está en CC"**, alerta de CDs ofensivos enemigos, indicador de precognition (kicks jukeados) | 🔴 Obligatorio |
 | **FrameSort** | — (nuevo imprescindible) | **Fija el orden de tus raid frames: party1 y party2 SIEMPRE en la misma posición entre rondas.** Sin esto, tus macros @party1/@party2 le pegan a la persona equivocada cuando el orden cambia entre rondas de Shuffle | 🔴 Obligatorio — tus macros dependen de él |
 | **OmniBar** | — (sobrevivió) | Barra de CDs enemigos clásica. Redundante si MiniCC te basta; algunos prefieren su formato de barra separada para kicks | 🟡 Opcional |
 | **BetterBlizzPlates** (+ BetterBlizzFrames) | Plater parcialmente | Retoque fino de los nameplates nativos: tamaño, color, orden, IDs de arena en vez de nombres | 🟡 Opcional |

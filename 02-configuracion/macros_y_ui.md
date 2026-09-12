@@ -1,18 +1,38 @@
 # Macros, UI y Keybinds — Estado Actual
 
-> Última actualización: 2026-07-11
+> Última actualización: **2026-09-11** (sesión de configuración de Fase 0.2 completada)
 > Instrucción para Claude: este archivo refleja mi configuración ACTUAL. Cuando sugieras mejoras, parte de lo que ya tengo (cambios incrementales), no de una configuración ideal desde cero. Si una sección está vacía, propón una base y explica el porqué de cada elección.
 
-## Addons instalados
-Nota: Actualmente no tengo addons instalados. 
+## Addons instalados ✅ (2026-09-11)
 
-| Addon | Uso | ¿Configurado bien? |
+Instalados vía **Skill Capped UI** (CurseForge), perfiles core aplicados. Verificado en skirmish.
+
+| Addon | Uso | Estado |
 |---|---|---|
-| [COMPLETAR — ej. OmniBar] | Tracking de CDs enemigos | Sí / No / No sé |
-| [COMPLETAR — ej. Gladius / sArena] | Frames de arena | |
-| [COMPLETAR — ej. BigDebuffs] | Prioridad de debuffs/CC en frames | |
-| [COMPLETAR — ej. WeakAuras] | Alertas personalizadas | |
-| [COMPLETAR — ej. OmniCC / TrufiGCD] | | |
+| **sArena Reloaded** | Marcos de arena enemigos: vida, maná, trinket, DR, cast bar | ✅ Funcionando — DR visible, maná del healer enemigo legible |
+| **MiniAuras** ⚠️ | Todo-en-uno de CC/CDs. **OJO: el proyecto lo llamaba "MiniCC" — el addon real se llama MiniAuras** (v5.40.0) | ✅ Funcionando |
+| **FrameSort** | Orden fijo de los marcos de grupo | ✅ Corregido 2026-09-11 (ver nota abajo) |
+| **BetterBlizzPlates** | Nameplates: números 1/2/3 sobre enemigos, CC, combo points | ✅ Funcionando |
+| **BetterBlizzFrames** | Limpieza de marcos nativos + indicadores | ✅ Instalado (v2.0.7b, marcado EARLY BETA) |
+| **Details!** | Medidor de daño/sanación | ✅ Funcionando |
+
+### Configuración aplicada y verificada
+
+| Ajuste | Dónde | Valor |
+|---|---|---|
+| **Orden de marcos en 3v3** | FrameSort → Arena: 3c3 | **Jugador: Abajo · Ordenar: Grupo** ⚠️ *estaba SIN marcar: causaba que el jugador apareciera 2º o 3º aleatoriamente y rompía las macros @party1/@party2* |
+| Orden de marcos en 2v2 | FrameSort → Arena: 2c2 | Jugador: Abajo · Ordenar: Grupo |
+| Método de ordenación | FrameSort | **Seguro** (sin taint, permite espaciado) |
+| Líder automático | FrameSort | Activado (permite reordenar party1/2 en Solo Shuffle) |
+| Solapamiento DR/trinket en marcos de grupo | MiniAuras → Auras importantes | Resuelto ajustando Desplazamiento X/Y y tamaño de icono |
+| Interrupciones enemigas | MiniAuras → Interr. enemigas | Activado. **Solo aparece DESPUÉS de que un enemigo gasta su kick** (muestra el CD, no el kick en sí) |
+
+### Pendiente de afinar
+
+- [ ] **"Mostrar nombre" en Interr. enemigas** → activar: con 3 enemigos, el icono no dice *quién* gastó el kick
+- [ ] **FrameSort → "Banda (campos de batalla)"** está desmarcado: sin orden fijo en Blitz (opcional — en 8v8 las macros @party1/2 cubren poco)
+- [ ] Verificar si existe alerta de "kick jukeado" (precognition) en MiniAuras → **Alertas**
+- [ ] Minimapa: se decidió NO eliminarlo (útil en Blitz); pendiente reducir tamaño vía Modo de edición si molesta
 
 ## Macros actuales
 Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
