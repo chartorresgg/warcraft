@@ -119,7 +119,24 @@ Tres reglas que se derivan de eso:
 | 11 | Shadowmeld | ✅ **Implementada** | |
 | **12** | **Focus @mouseover** | 🆕 **Pendiente de crear** | Faltaba en el set original: sin ella, fijar el focus es manual |
 
-**Resumen: 11 de 11 creadas y funcionando.** ✅ **Fase 0.3 cerrada** (falta solo la macro 12, nueva).
+**Resumen: 11 de 11 creadas y funcionando.** ✅ **Fase 0.3 cerrada.**
+
+> **Macro 12 (Focus @mouseover) descartada** el 2026-09-12: el jugador fija el focus con **clic derecho sobre el marco enemigo de sArena**, que es más rápido que cualquier macro. No hace falta.
+
+### Estado de las macros OPCIONALES (probadas in-game el 2026-09-12)
+
+| # | Macro | Estado | Nota del jugador |
+|---|---|---|---|
+| A | Ironbark @party1/@party2 | ✅ **Implementada** | "Útiles, funcionan correctamente" |
+| B | NS + Regrowth (pánico) | ✅ **Implementada** | ⚠️ Compite por NS con la macro 9: NS tiene **una sola carga** |
+| C | Entangling Roots @focus | ✅ **Implementada** | "Muy útil" |
+| D | Wild Charge @party1/@party2 | ✅ **Implementada** | "Demasiado útil, y es una habilidad que no uso mucho" → **fuérzala conscientemente: es tu escape del tren melee y tu debilidad declarada es el posicionamiento** |
+| E | ~~Efflorescence @cursor~~ | ❌ **No aplica** | Floración es automática en su build (ver fila E abajo) |
+| F | Talento flexible AoE CC | ✅ **Implementada** | Pendiente de probar en partida |
+| G | ~~Incapacitating Roar~~ | ⚪ **Innecesaria** | Idéntica al hechizo suelto — no aporta nada |
+| H | Nature's Cure @mouseover | ✅ **Implementada** | La evolución del dispel en scroll abajo |
+
+**6 de 8 opcionales útiles.** Las descartadas (E y G) lo son por diseño del juego, no por error de configuración.
 
 ### ⚠️ Utilidad real de las macros 7 y 7b (stuns)
 
@@ -181,9 +198,9 @@ La macro 3 (Cyclone @focus) es tu herramienta principal, pero el set **no inclu�
 | B   | **NS + Regrowth (pánico)**        | `#showtooltip` `/castsequence reset=3 Presteza de la Naturaleza, Recrecimiento`                                  | 1er toque NS, 2do Regrowth instantáneo (se reinicia a los 3 seg)                                                | ⚠️ Compite por NS con #9. NS es UNA carga: decide en el momento si es heal o CC    |
 | C   | **Entangling Roots @focus** (Raíces enredaderas) | `#showtooltip` `/cast [@focus] Raíces enredaderas` ⚠️ Shift+clic                                   | Roots al focus: peel o separar al healer enemigo de su equipo                                                   | Versiones @arena123 si escalas                                                     |
 | D   | **Wild Charge @party1 / @party2** (Carga salvaje) | `#showtooltip` `/cast [@party1] Carga salvaje` *(duplicar para party2)*                           | Vuelas hacia tu aliado: escape instantáneo del tren melee                                                       | Salvavidas lejos de pilares                                                        |
-| E   | **Efflorescence @cursor** (Floración) | `#showtooltip` `/cast [@cursor] Floración` `/ping` ⚠️ Shift+clic                                             | Suelta la flor donde está el cursor, sin círculo verde, y pinguea al equipo                                     | Ahorra ~0.5 seg por uso, muchas veces por partida                                  |
+| E   | ~~**Efflorescence @cursor** (Floración)~~ | ❌ **NO APLICA a tu build** (verificado in-game 2026-09-12)                                              | En tu build Floración **se coloca sola** — no hay hechizo que lanzar, así que la macro no puede existir          | Causa probable: tienes el talento **Lifetreading**, que mueve Floración automáticamente bajo tu objetivo de Lifebloom. Si algún día lo sueltas, Floración vuelve a ser un hechizo de suelo y esta macro recupera sentido |
 | F   | **Talento flexible: AoE CC**      | `#showtooltip` `/cast [known:Enredo masivo] Enredo masivo` `/cast [known:Vórtice de Ursol] Vórtice de Ursol` ⚠️ Shift+clic | Usa automáticamente el talento que tengas en esa fila                                              | A prueba de swaps de matchup (Fase 4): cambias talentos sin reorganizar barras. ⚠️ `known:` también necesita el nombre en español |
-| G   | **Incapacitating Roar** (Rugido incapacitante) | `#showtooltip` `/cast Rugido incapacitante`                                                         | CC de área de 3 seg (se rompe con daño) — tu incapacitate cuando lo talentas (flex, 34/50 de uso en S2)         | Solo si está en tu build. Coordina en voz antes de usarlo: el daño propio lo rompe |
+| G   | ~~**Incapacitating Roar**~~ (Rugido incapacitante) | ⚪ **INNECESARIA** (verificado 2026-09-12)                                                       | `/cast Rugido incapacitante` hace **exactamente lo mismo** que el botón del hechizo: es AoE alrededor de ti, no acepta `@objetivo` | Usa el hechizo directamente y ahorra el espacio de barra. Solo tendría sentido si alternaras el talento y quisieras un botón fijo con `#showtooltip` |
 | H   | **Nature's Cure @mouseover** (Cura de la naturaleza) | `#showtooltip` `/cast [@mouseover,help,nodead][@target] Cura de la naturaleza`                 | Cursor sobre el frame del aliado + tecla = dispel a ESE aliado sin targetear. Sin mouseover, disipa a tu target | La evolución de tu scroll abajo — ver tabla de keybinds                            |
 
 

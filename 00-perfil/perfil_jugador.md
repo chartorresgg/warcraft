@@ -11,6 +11,7 @@
 - **Facción / Servidor:** Alianza - DunModr
 - **iLvl PvP actual:** 338 *(*✅ Datos actualizado a 11 de septiembre de 2026*)*
 - **Idioma del cliente:** **Español (esES)** → ⚠️ las macros deben llevar nombres de hechizo en español
+- **Talentos con impacto en la UI/macros:** tiene **Lifetreading** seleccionado → *Efflorescence (Floración)* se coloca sola bajo su objetivo de Lifebloom. **No sugerir macros ni consejos de "colocar la flor"**; lo que controla es en quién pone Lifebloom. *(Verificado in-game 2026-09-12.)*
 
 
 

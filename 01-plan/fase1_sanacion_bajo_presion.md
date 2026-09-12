@@ -33,10 +33,13 @@ Nadie está en peligro. Tu trabajo es **preparar**, no curar.
 ```
 Lifebloom (Flor de vida) SIEMPRE en quien recibe daño — nunca se cae
 → Rejuvenation (Rejuvenecimiento) rodando en los 3
-→ Efflorescence (Floración) donde va a pelear tu equipo
 → Regrowth (Recrecimiento) SOLO con proc de Clearcasting
 → bebe en cada transición de pilar
 ```
+
+> ⚠️ **Efflorescence (Floración) no está en la lista porque en tu build es automática** (talento *Lifetreading*): se coloca sola bajo tu objetivo de Lifebloom. Consecuencia práctica: **elegir bien en quién va Lifebloom coloca también tu zona de sanación.** Dos decisiones en una.
+>
+> ⚠️ Lo mismo con **Grove Guardians (Fuerza de la Naturaleza)**: es pasivo en Midnight. Los treants salen al castear **Swiftmend** o **Wild Growth** — no hay botón que pulsar.
 
 **La regla de maná de S2:** sin proc de Omen of Clarity, Regrowth es caro. Con proc, es gratis. Si te descubres casteando Regrowth sin proc en Modo A, estás quemando la partida a los 3 minutos.
 

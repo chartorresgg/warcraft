@@ -34,7 +34,8 @@ Sistema personal de entrenamiento PvP (arenas 3v3 y RBG) para un Druida Restaura
 1. **El tooltip in-game gana** sobre cualquier tabla de estos archivos (Midnight rediseñó parte del kit).
 2. Los archivos de detalle (`02-configuracion/macros_resto_druid.md`, `02-configuracion/addons_ui_programas.md`) ganan sobre los resúmenes del roadmap si llegaran a divergir.
 3. Datos de meta (builds, stats, comps, win rates) caducan con parches → revalidar en Murlok.io/Icy Veins antes de S2. Consejo situacional (regla de trinket, árbol de decisión de Cyclone, protocolo de comunicación) es estable.
-4. **Resto NO tiene Mighty Bash en Midnight.** El stun es Rake desde Prowl (fuera de combate) y Maim (en combate). WeakAuras está muerto en retail; no recomendarlo.
+4. **Resto NO tiene Mighty Bash en Midnight.** El stun es Rake desde Prowl (fuera de combate) y **Maim = Amputar** (en combate). WeakAuras está muerto en retail; no recomendarlo.
+5. **Antes de proponer una macro, verifica que el hechizo sea ACTIVO.** Midnight convirtió varias habilidades en pasivas y el proyecto arrastró consejos imposibles de ejecutar. Confirmados pasivos: **Grove Guardians** (los treants salen al castear Swiftmend o Wild Growth), **Flourish** (procea con Tranquility), **Efflorescence** en el build del jugador (por *Lifetreading*). Ante la duda, pregunta por el tooltip antes de escribir la macro.
 
 ## Estado actual (actualizar al avanzar)
 
