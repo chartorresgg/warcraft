@@ -65,6 +65,13 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 > Adaptado a tu esquema real: strafe en Q/E se CONSERVA (hábito de años). Lo que se elimina es el giro con A/D — al girar con el mouse, A y D quedan libres como teclas de habilidad premium, pegadas a tus dedos de movimiento.
 
 0. **Girar con mouse (botón derecho sostenido), no con A/D.** Es el cambio más incómodo y el más importante: el giro con teclado tiene velocidad fija y lenta — en arena no llegas a kitear ni a reaccionar a swaps. Practicar en dummies/mundo hasta que sea natural. A/D dejan de girar y quedan libres.
+
+   > ✅ **Esquema confirmado in-game el 2026-09-12:** A gira a la izquierda, D a la derecha (sobre su eje) · Q/E desplazan de lado sin girar (strafe) · W/S adelante y atrás. El registro del proyecto era correcto.
+   >
+   > 🔴 **Método elegido: RADICAL** — desbindear las teclas de giro para que la mano no tenga alternativa.
+   > **Dónde:** `ESC → Opciones → Controles → Asignación de teclas` (Key Bindings) → sección **Movimiento** (Movement Keys) → busca **"Girar a la izquierda"** (Turn Left) y **"Girar a la derecha"** (Turn Right) → bórralas.
+   > ⚠️ **NO toques** "Desplazarse a la izquierda/derecha" (Strafe Left/Right): ésas son tus Q/E y se conservan.
+   > Tras desbindear, A y D quedan libres para asignarles Barkskin e Ironbark (pasos 5 y 6).
 1. **Trinket** → botón lateral trasero del mouse
 2. **Cyclone @focus** → botón lateral frontal del mouse
 3. **Dispel**: ya vive en scroll abajo — solo cambiar su contenido por la macro H (@mouseover) de `02-configuracion/macros_resto_druid.md`. ✅ *Macro H ya creada y funcionando.*

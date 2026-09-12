@@ -10,10 +10,12 @@
 
 El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **Eso no ocurrió:** llevas ~380 partidas jugadas en Season 2 y sigues en Fase 0 — sin addons, sin macros, clickeando.
 
-| Bracket | Rating S2 | Partidas | Win rate | Lectura |
-|---|---|---|---|---|
-| Solo Shuffle | 1094 (era 1784 en S1) | 328 rondas | **52%** | La caída es el **reset de S2**, no pérdida de nivel. Subes, pero lento |
-| Battleground Blitz | 1421 (era 1670 en S1) | 52 partidas | **38%** | ⚠️ El único bracket bajo 50%. **Aquí está el problema real** |
+
+| Bracket            | Rating S2             | Partidas    | Win rate | Lectura                                                                |
+| ------------------ | --------------------- | ----------- | -------- | ---------------------------------------------------------------------- |
+| Solo Shuffle       | 1094 (era 1784 en S1) | 328 rondas  | **52%**  | La caída es el **reset de S2**, no pérdida de nivel. Subes, pero lento |
+| Battleground Blitz | 1421 (era 1670 en S1) | 52 partidas | **38%**  | ⚠️ El único bracket bajo 50%. **Aquí está el problema real**           |
+
 
 **El diagnóstico honesto:** 380 partidas de experiencia no se convierten en rating mientras juegues sin las herramientas. Un healer clicker sin frames de arena no puede dispelear a tiempo, no ve el DR enemigo y no reacciona a swaps. Eso no se arregla jugando más — se arregla en una tarde de configuración.
 
@@ -27,6 +29,8 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 
 ---
 
+
+
 ## ⚠️ Qué cambió con 12.1 (revalidado el 2026-09-11)
 
 **Confirmado sin cambios** — tu build base sigue siendo correcto:
@@ -35,8 +39,8 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 
 **Lo que sí cambió:**
 
-- **DR reset: 16 → 20 segundos.** Los goes se espacian más. *(Detalle en `fase2_juego_ofensivo.md`.)*
-- **Innervate rediseñado:** ya no da hechizos gratis; regenera **20% del maná máximo en 8 seg** en PvP (el tooltip dice 25%; el hotfix del 1 de septiembre lo bajó a 20%). *(Detalle en `fase1_sanacion_bajo_presion.md` §3.)*
+- **DR reset: 16 → 20 segundos.** Los goes se espacian más. *(Detalle en* `fase2_juego_ofensivo.md`*.)*
+- **Innervate rediseñado:** ya no da hechizos gratis; regenera **20% del maná máximo en 8 seg** en PvP (el tooltip dice 25%; el hotfix del 1 de septiembre lo bajó a 20%). *(Detalle en* `fase1_sanacion_bajo_presion.md` *§3.)*
 - **Nerfs del 1 de septiembre:** Swiftmend −20% en PvP, Regrowth −20%, sanación general −5%, Incarnation acortado. **El parche castiga al healer reactivo y premia al preventivo.**
 - **Talentos:** *Overgrowth* nuevo (25/50, candidato real) · *Flash of Clarity* nuevo (0/50, ignóralo) · *Nature's Splendor* eliminado · *Abundance* rediseñado · *Typhoon* slow 50% → 30% (pero subió a 41/50) · *Ursol's Vortex* saltó a 43/50.
 - **Ancient of Lore regresó como PvP talent pero el ladder no lo juega (3/50).** Icy Veins lo recomienda; los datos dicen que no. No hagas ese swap.
@@ -55,27 +59,15 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 >
 > **Esta fase no tiene archivo propio** (a diferencia de las Fases 1 y 2): es este índice, y el detalle vive en los tres archivos de `02-configuracion/`. La ruta de aplicación paso a paso está abajo, en cada subsección.
 
+
+
 ### 0.1 Build y gear (verificar contra fuentes vivas, no memorizar)
 
 - **Talentos y PvP talents:** ✅ **revalidado el 2026-09-11 para S2** — la tríada sigue siendo *Forest Guardian* (50/50), *Early Spring* (48/50) y *Call of Ohn'ahra* (35/50). Importa el build estándar de Skill Capped **creando un loadout nuevo de S2, no parcheando el viejo** (12.1 eliminó *Nature's Splendor* y añadió *Overgrowth* / *Flash of Clarity*). PvP talents situacionales a tener aprendidos: *Thorns* (vs doble melee), *Disentanglement* (vs comps con slows), *High Winds* (Cyclone defensivo vs equipos sin kicks). **No tomes *Ancient of Lore*** pese a que Icy Veins lo recomiende: 3/50 en el ladder.
 - **Hero Talent:** ✅ *Keeper of the Grove* **revalidado el 2026-09-11 para S2: 42/50 de los top de 3v3 lo usan** (Wildstalker solo 8/50). Sigue siendo el correcto — no lo cambies. ⚠️ Ojo: las guías de **PvE** de 12.1 recomiendan Wildstalker; eso no aplica a PvP.
 - **Stats:** **arena** = Mastery (38%) > Versatility (15%) > Haste (12%) > Crit (5%). ⚠️ **Blitz/RBG invierten el orden: Versatility > Mastery.** Juegas ambos brackets: si empujas Blitz en serio, es otro set de gemas/enchants. Copia los más usados en Murlok.io del bracket correspondiente — no teorices, son datos vivos.
-- **Omnium Folio (Folio Omnium):** cadena introductoria de ~15-20 min en solitario, luego **una fila de runas por semana durante 5 semanas**. Las runas se cambian gratis, en cualquier momento y sin viajar — así que no hay decisión irreversible. Tabla de elecciones para ti ↓
-- **iLvl:** ✅ **338** (actualizado 2026-09-11). Capea el gear PvP semanal para seguir subiendo.
-
-#### Runas del Omnium Folio — tus elecciones (revalidado 2026-09-11)
-
-> ⚠️ **Casi todas las guías que encuentres recomiendan el build de PvE.** Dos de las filas cambian en PvP, y una de ellas es una trampa para un healer. Esta tabla es la versión PvP.
-
-| Fila | Opciones | Tu elección (PvP) | Por qué |
-|---|---|---|---|
-| **1 — Core** (sem. 1) | Void-Touched Orbs · Unleashed Fire | 🟢 **Void-Touched Orbs** | Acumula orbes que tus curas redirigen a aliados. Unleashed Fire exige quedarte quieto en una zona — inviable para un healer que vive kiteando. Coincide con la recomendación de healer Y la de PvP |
-| **2 — Defensiva** (sem. 2) | Void-Tainted Shell · Self-Mending · Lynxlike Reflexes | 🟢 **Lynxlike Reflexes** | Velocidad de movimiento al recibir daño = kiteo. ⚠️ **Evita Void-Tainted Shell**: el escudo te devuelve el 50% del daño absorbido en 10 seg — daño que TÚ tienes que curarte. En PvE compensa; en arena le regalas presión al enemigo. *Self-Mending es alternativa defendible si te sientes muy frágil, pero la movilidad resuelve tu debilidad declarada (posicionamiento)* |
-| **3 — Lingering** (sem. 3) | Rune of Lingering (única) | ⚪ **Sin decisión** | Todos la reciben. Extiende el efecto de tu runa core 8 seg |
-| **4 — Stat secundaria** (sem. 4) | Crit · Haste · Mastery · Versatility | 🟢 **Mastery** en arena · **Versatility** en Blitz | Sigue tu prioridad de stats por bracket (§0.1 arriba). Como las runas se cambian gratis, **puedes alternarla según a qué vayas a colar** |
-| **5 — Capstone** (sem. 5) | Overload · Residual Energy · Echoes | 🟢 **Overload** | Duplica el burst de la runa core. *Residual Energy (duplica el efecto lingering) es la alternativa para specs de HoTs como el tuyo — cuando la desbloquees, pruébala 2-3 sesiones y quédate con la que notes* |
-
-**Regla práctica:** al ser gratis el cambio, trátalas como talentos flexibles, no como una decisión permanente. La única que **no** debes tomar en PvP es Void-Tainted Shell.
+- **Omnium Folio:** completar la cadena de misiones y elegir las runas PvP recomendadas en la página de builds de Icy Veins.
+- **iLvl:** ⚠️ el 298 es dato de julio (S1). **Season 2 trajo gear nuevo y reseteó Conquest** — reverifica tu iLvl actual y capea el gear PvP semanal. Empujar rating con desventaja de iLvl es entrenar frustración.
 
 
 
@@ -86,16 +78,14 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 **Primero la UI base de Blizzard** (Cooldown Manager, números de CD nativos, cast bars en nameplates, DR nativo en frames de arena), **después el stack de 3 addons:**
 
 
-| Addon                | Para qué                                                                                                                 |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **sArena Reloaded**  | Frames de arena con trinket, racial y categorías de DR por enemigo                                                        |
-| **MiniCC**           | CC gigante en frames, tracking de CDs enemigos (kicks, ofensivos), alerta de "tu healer está en CC"                       |
-| **FrameSort**        | Orden fijo de party1/party2 entre rondas — sin él, tus macros @party1/@party2 son ruleta rusa en Shuffle                   |
+| Addon            | Para qué                                                                                                 |
+| ---------------- | -------------------------------------------------------------------------------------------------------- |
+| **daddReloaded** | Frames de arena con trinket, racial y categorías de DR por enemigo                                       |
+| **MiniCC**       | CC gigante en frames, tracking de CDs enemigos (kicks, ofensivos), alerta de "tu healer está en CC"      |
+| **FrameSort**    | Orden fijo de party1/party2 entre rondas — sin él, tus macros @party1/@party2 son ruleta rusa en Shuffle |
+
 
 Atajo: el addon **Skill Capped UI** auto-configura todo el stack en un clic (ver `02-configuracion/addons_ui_programas.md`).
-
-
-
 
 ### 0.3 Macros mínimas (las 11 innegociables)
 
@@ -294,16 +284,16 @@ Lo que EXIGES de tus DPS:
 ## Tabla resumen
 
 
-| Fase                          | Semanas | Objetivo central                              | Métrica de salida                                                                           |
-| ----------------------------- | ------- | --------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Fase                          | Semanas | Objetivo central                                 | Métrica de salida                                                                                       |
+| ----------------------------- | ------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
 | **0 — Cimientos técnicos**    | 1       | UI base, addons, macros **en español**, keybinds | 11 macros sin ícono "?" y automáticas en skirmish; UI completa; `02-configuracion/macros_y_ui.md` lleno |
-| **1 — Sanación bajo presión** | 2-4     | Healing y defensivos automáticos              | 0 muertes con NS disponible; trinket solo con regla de 3 condiciones; Shuffle recuperando hacia 1784 |
-| **2 — Juego ofensivo** ⭐      | 5-8     | Cyclone, DR (20 seg), fake cast, posicionamiento | 3+ Cyclones útiles/ronda; ≤1 kick sufrido/ronda; Shuffle 1850+                              |
-| **3 — Equipo y comps**        | 9-12    | Transición a 3v3 coordinado                   | Equipo fijo, 30+ partidas misma comp, protocolo de voz al 100%, 3v3 1600+                   |
-| **4 — Push sostenido**        | 13+     | Superar 1750 → 1950 (3v3) y 2100 → 2200 (RBG) | 2 VODs/semana; tendencia positiva por trimestre                                             |
+| **1 — Sanación bajo presión** | 2-4     | Healing y defensivos automáticos                 | 0 muertes con NS disponible; trinket solo con regla de 3 condiciones; Shuffle recuperando hacia 1784    |
+| **2 — Juego ofensivo** ⭐      | 5-8     | Cyclone, DR (20 seg), fake cast, posicionamiento | 3+ Cyclones útiles/ronda; ≤1 kick sufrido/ronda; Shuffle 1850+                                          |
+| **3 — Equipo y comps**        | 9-12    | Transición a 3v3 coordinado                      | Equipo fijo, 30+ partidas misma comp, protocolo de voz al 100%, 3v3 1600+                               |
+| **4 — Push sostenido**        | 13+     | Superar 1750 → 1950 (3v3) y 2100 → 2200 (RBG)    | 2 VODs/semana; tendencia positiva por trimestre                                                         |
+
 
 > Las semanas son relativas al arranque real (2026-09-11), no a fechas de calendario. La Fase 0 bajó de 2 semanas a 1: son ~4 horas de trabajo, no dos semanas — llevas dos meses aplazándola.
-
 
 ---
 
