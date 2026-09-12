@@ -39,8 +39,7 @@ Sistema personal de entrenamiento PvP (arenas 3v3 y RBG) para un Druida Restaura
 
 ## Estado actual (actualizar al avanzar)
 
-- **Fase actual: 0 (Cimientos técnicos), prácticamente cerrada.** ✅ **0.2 addons** (2026-09-11) · ✅ **0.3 macros** (11 obligatorias + 6 opcionales, probadas in-game) · ✅ **0.4 keybinds** (2026-09-12): giro con teclado desbindeado y 10/12 binds implementados. **Ya NO es clicker en habilidades de reacción.** Pendiente menor: asignar Cyclone @arena1/2/3 a Shift+1/2/3, y **construir el hábito de mouse turning con práctica** (único bloqueo real restante).
-- **Las curas base (1-5) siguen clickeadas a propósito** — son las de menor urgencia de reacción. No presionar para migrarlas.
+- **Fase actual: 0 (Cimientos técnicos), casi cerrada.** ✅ **0.2 addons COMPLETADA** el 2026-09-11. ✅ **0.3 macros COMPLETADA** el 2026-09-12 (11/11 creadas y probadas in-game; falta solo la macro 12 de focus, nueva). ❌ Pendiente: **0.4 keybinds** — sigue siendo clicker, paso 0 de la migración (girar con mouse) sin hacer. **Ese es ahora el único bloqueo de Fase 0.**
 - ⚠️ **Al dar una macro, escribe cada comando en su propia línea.** El formato de tabla de `macros_resto_druid.md` junta los comandos en una celda; pegarlos así rompe la macro (le pasó al jugador con las macros 4/5/6).
 - ⚠️ **Maim = Amputar** (no "Destripar", que es Rip/sangrado). Error de traducción detectado y corregido el 2026-09-12.
 - **Las macros de stun (7 y 7b) funcionan pero son material de Fase 2+.** Prowl exige estar fuera de combate; Amputar exige puntos de combo (= dejar de curar). No las fuerces en Fases 0-1.

@@ -54,8 +54,28 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 
 ## Keybinds
 
-- **Esquema general:** Todo clickeado en las barras de acción. Curas en los slots 1-5 de la barra principal; defensivos en la barra 2, justo encima de los hechizos de la principal.
-- **Scroll Mouse:** Scroll abajo: Disipar efectos (Nature's Cure)
+### ✅ Mapa de teclas REAL (implementado y verificado 2026-09-12)
+
+| Tecla | Qué tiene | Estado |
+|---|---|---|
+| **1 – 5** | Curas base clickeadas (incluye Recrecimiento y Crecimiento salvaje en 4 y 5) | ✅ Se conservan — son las de menor urgencia de reacción |
+| **6** | Libre | ⚪ Disponible |
+| **Scroll abajo** | Macro H — Dispel @mouseover (Cura de la naturaleza) | ✅ |
+| **Shift+Scroll abajo** | Macro #1 — Dispel @party1 | ✅ Respaldo sin cursor (funciona girando con clic derecho) |
+| **Ctrl+Scroll abajo** | Macro #2 — Dispel @party2 | ✅ Igual |
+| **Mouse lateral frontal** | Macro #3 — Cyclone @focus (Ciclón) | ✅ La macro más usada |
+| **Mouse lateral trasero** | Macro #10 — Trinket (`/use 14`) | ✅ Reacción pura |
+| **F** | Macro #8 — Bear + Frenzied Regen | ✅ Botón de pánico |
+| **Shift+F** | Macro #9 — NS + Cyclone instantáneo | ✅ |
+| **D** | Barkskin (Piel de corteza) | ✅ Liberada al desbindear el giro |
+| **A / Shift+A** | Macro A — Ironbark @party1/@party2 | ✅ Liberadas al desbindear el giro |
+| **Shift+D** | Macro C — Roots @focus (Raíces enredaderas) | ✅ |
+| **R** | Macro D — Wild Charge @party1 (Carga salvaje) | ✅ Escape del tren melee |
+| **V** | Macro #11 — Shadowmeld (Fusión de las sombras) | ✅ |
+| **Shift+1 / Shift+2 / Shift+3** | Macros #4/#5/#6 — Cyclone @arena1/2/3 | ⚠️ **Pendiente** — 4/5/6 ocupadas por curas. Shift+número coincide con los números 1/2/3 que BBP dibuja sobre los enemigos |
+| *(sin asignar)* | Macros #7 Prowl+Rake · #7b Amputar | ⏸️ **Fase 2** — no bindear todavía |
+
+- **Esquema anterior (histórico):** todo clickeado en las barras de acción; curas en 1-5, defensivos en barra 2. **Superado el 2026-09-12** para las habilidades de reacción.
 - **Movimiento (actualizado 2026-09-12):** W adelante, S atrás, **Q/E strafe**. ✅ **A/D liberadas** — el giro con teclado quedó desbindeado (las 4 entradas: A, D, Flecha izquierda, Flecha derecha). Ahora se gira con **clic derecho sostenido**.
   - **Esquema de mouse en uso:** clic derecho sostenido = girar el personaje · clic izquierdo sostenido = cámara libre (mirar atrás sin girarse) · ambos botones = *mouse running* (caminar + girar con la mano derecha, mano izquierda libre para habilidades) · clic derecho suelto en el suelo = movimiento por clic.
   - **Vel. giro cámara con ratón: 10** (máximo). Si sobregira al practicar, bajar a 7-8.
@@ -96,7 +116,8 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 - [x] ~~Crear las 11 macros obligatorias~~ ✅ **Hecho 2026-09-12** (11/11 + 6 opcionales, todas probadas in-game)
 - [x] ~~**Paso 0: desbindear el giro con teclado**~~ ✅ **Hecho 2026-09-12** — las 4 entradas de "Girar a la izquierda/derecha" en Sin asignar; Q/E de strafe intactas
 - [ ] **Paso 0b: construir el hábito** — practicar mouse turning en mundo abierto y dummies. *Criterio: giras 180° sin pensarlo y sin buscar el teclado* ← 🔴 **es lo que queda de Fase 0**
-- [ ] Migrar habilidades de reacción a teclas (pasos 1-6 del plan de arriba)
+- [x] ~~Migrar habilidades de reacción a teclas~~ ✅ **Hecho 2026-09-12** — 10 de 12 binds implementados y verificados (ver mapa arriba)
+- [ ] Asignar Cyclone @arena1/2/3 a **Shift+1/2/3** (las teclas 4/5/6 están ocupadas por curas)
 - [ ] **Quitar de la barra cada hechizo suelto cuya macro ya esté bindeada** (si no, la mano sigue yendo al ratón y la migración no ocurre)
 - [ ] Anotar teclas incómodas a medida que aparezcan en los drills
 
