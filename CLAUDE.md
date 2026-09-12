@@ -49,14 +49,16 @@ Sistema personal de entrenamiento PvP (arenas 3v3 y RBG) para un Druida Restaura
 
 ## Estado actual (actualizar al avanzar)
 
-- **Fase actual: 0 (Cimientos técnicos), prácticamente cerrada.** ✅ **0.2 addons** (2026-09-11) · ✅ **0.3 macros** (11 obligatorias + 6 opcionales, probadas in-game) · ✅ **0.4 keybinds** (2026-09-12): giro con teclado desbindeado y 10/12 binds implementados. **Ya NO es clicker en habilidades de reacción.** Pendiente menor: asignar Cyclone @arena1/2/3 a Shift+1/2/3, y **construir el hábito de mouse turning con práctica** (único bloqueo real restante).
+- **✅ FASE 0 CERRADA (2026-09-12).** 0.1 build revalidado · 0.2 addons · 0.3 macros (11 obligatorias + 6 opcionales, probadas in-game) · 0.4 keybinds (12/12, Cyclone @arena1/2/3 en **Ctrl+1/2/3**, giro con teclado desbindeado). **Ya NO es clicker.**
+- **Único pendiente de Fase 0:** construir el hábito de *mouse turning* con práctica. No es configuración — es repetición.
+- **Fase siguiente: 1 (Sanación bajo presión).** Ver `01-plan/ruta_de_trabajo.md` para el estado operativo completo.
 - **Las curas base (1-5) siguen clickeadas a propósito** — son las de menor urgencia de reacción. No presionar para migrarlas.
 - ⚠️ **Al dar una macro, escribe cada comando en su propia línea.** El formato de tabla de `macros_resto_druid.md` junta los comandos en una celda; pegarlos así rompe la macro (le pasó al jugador con las macros 4/5/6).
 - ⚠️ **Maim = Amputar** (no "Destripar", que es Rip/sangrado). Error de traducción detectado y corregido el 2026-09-12.
 - **Las macros de stun (7 y 7b) funcionan pero son material de Fase 2+.** Prowl exige estar fuera de combate; Amputar exige puntos de combo (= dejar de curar). No las fuerces en Fases 0-1.
 - ⚠️ **El addon se llama MiniAuras, no "MiniCC".** El nombre "MiniCC" de los documentos de julio nunca se verificó contra la instalación real. Usa MiniAuras.
 - **El jugador es nuevo en la terminología de PvP** (preguntó qué es DR tras cinco documentos usándolo). Ver `00-perfil/glosario_conceptos.md` y no asumir conceptos.
-- **Ratings S2 (2026-09-11):** Solo Shuffle 1094 (328 rondas, 52% WR) · Battleground Blitz 1421 (52 partidas, 38% WR). La caída desde 1784/1670 es el reset de S2, no pérdida de nivel — el WR de Shuffle es positivo. **Blitz a 38% es el problema real.**
+- **Ratings S2 (línea base PRE-Fase 0):** Solo Shuffle ~1110 (328 rondas, 52% WR) · Battleground Blitz ~1400 (52 partidas, 38% WR). ⚠️ **Todos se registraron sin herramientas.** Dejan de ser diagnóstico vigente: son la línea base contra la que se mide la mejora. Próxima medición tras 3-4 sesiones con la configuración nueva.
 - **El jugador es clicker, en proceso de migración a keybinds** (declarado 2026-07-12). Todo clickeado: curas en 1-5, defensivos en barra 2. Las habilidades de reacción deben migrar a teclas ANTES de cerrar Fase 0 — plan incremental en `02-configuracion/macros_y_ui.md`.
 - **Movimiento: W/S adelante-atrás, Q/E strafe, A/D giran (keyboard turning).** El paso 0 de la migración es girar con mouse y liberar A/D como teclas de habilidad. Q/E se conservan como strafe — NO sugerirlas para habilidades.
 - `04-seguimiento/registro_temporada.md` sin sesiones registradas todavía.

@@ -29,7 +29,7 @@ Y el parche de septiembre de 2026 reforzó esto: nerfearon Swiftmend (−20%) y 
 | **Wild Growth** (Crecimiento salvaje) | HoT de área: cura a varios aliados cerca del objetivo | Instantáneo gracias a *Early Spring*. **Gatilla Grove Guardians.** Es tu hechizo más caro (+15% de maná en 12.1) pero cura 20% más |
 | **Regrowth** (Recrecimiento) | Cura directa + un HoT corto. **Casteado** (kickeable) | Caro sin proc. **Con proc de Clearcasting es gratis** — ésa es tu regla de maná |
 
-**El orden mental:** Lifebloom siempre puesto → Rejuvenation ancho → Wild Growth cuando hay daño de área → Regrowth solo con proc.
+**El orden mental:** Lifebloom (Flor de vida) siempre puesto → Rejuvenation (Rejuvenecimiento) ancho → Wild Growth (Crecimiento salvaje) cuando hay daño de área → Regrowth (Recrecimiento) solo con proc.
 
 ---
 
@@ -106,37 +106,42 @@ Midnight convirtió varias cosas en pasivas. Esto causó errores reales en este 
 ### Cuando no pasa nada (el 70% de la partida)
 
 ```
-1. ¿Lifebloom está activo en quien recibe daño?     → si no, ponlo YA
-2. ¿Rejuvenation en los que van a recibir daño?     → siémbralo
-3. ¿Tengo proc de Clearcasting?                     → Regrowth gratis
-4. ¿Estoy fuera de combate junto a un pilar?        → bebe
+1. ¿Lifebloom (Flor de vida) activo en quien recibe daño?   → si no, ponlo YA
+2. ¿Rejuvenation (Rejuvenecimiento) en los que van a
+   recibir daño?                                            → siémbralo
+3. ¿Tengo proc de Clearcasting?                             → Regrowth
+                                                   (Recrecimiento) gratis
+4. ¿Estoy fuera de combate junto a un pilar?                → bebe
 ```
 
 ### Cuando entra daño
 
 ```
-1. Wild Growth (instantáneo, gatilla treants)
-2. Swiftmend sobre alguien que YA tenga HoT
-3. Regrowth con proc
-4. Ironbark si el go es sobre un aliado concreto
+1. Wild Growth (Crecimiento salvaje) — instantáneo, gatilla treants
+2. Swiftmend (Alivio presto) sobre alguien que YA tenga HoT
+3. Regrowth (Recrecimiento) con proc
+4. Ironbark (Corteza de hierro) si el go es sobre un aliado concreto
 ```
 
 ### Cuando alguien muere en 3 segundos
 
 ```
-1. Nature's Swiftness + Regrowth   ← el botón que más vidas salva
-2. Swiftmend si hay HoT activo
-3. Ironbark
-4. Incarnation si todo el equipo está bajo presión
+1. Nature's Swiftness (Presteza de la Naturaleza)
+   + Regrowth (Recrecimiento)        ← el botón que más vidas salva
+2. Swiftmend (Alivio presto) si hay HoT activo
+3. Ironbark (Corteza de hierro)
+4. Incarnation (Encarnación: Árbol de vida) si todo el equipo
+   está bajo presión
 ```
 
 ### Cuando vienen a por TI
 
 ```
-1. Pilar / LoS         (gratis)
-2. Barkskin            (temprano)
-3. Bear + Frenzied
-4. Trinket             (solo con las 3 condiciones)
+1. Pilar / LoS                                    (gratis)
+2. Barkskin (Piel de corteza)                     (temprano)
+3. Bear Form + Frenzied Regeneration
+   (Forma de oso + Regeneración frenética)
+4. Trinket                          (solo con las 3 condiciones)
 ```
 
 ---
@@ -144,12 +149,12 @@ Midnight convirtió varias cosas en pasivas. Esto causó errores reales en este 
 ## 9. Las 10 reglas de tu clase
 
 1. **Siembra antes del daño.** Si reaccionas, llegas tarde.
-2. **Lifebloom nunca se cae** de quien recibe daño.
-3. **Rejuvenation ancho** — alimenta Abundance y habilita Swiftmend.
-4. **Regrowth solo con proc de Clearcasting.** Sin proc es maná quemado.
-5. **Wild Growth y Swiftmend gatillan treants.** Son sanación gratis.
-6. **Si alguien muere con NS disponible, el error fue tuyo.**
-7. **Barkskin temprano, no guardado.** Su CD vuelve; tu vida no.
-8. **Cyclone bloquea toda sanación** — ofensivo y defensivo a la vez.
-9. **Innervate al 50-60% de maná.** Ni al 90% ni al 20%.
-10. **Entrar en Bear no es perder** — es comprar tiempo para que tus HoTs te suban.
+2. **Lifebloom (Flor de vida) nunca se cae** de quien recibe daño.
+3. **Rejuvenation (Rejuvenecimiento) ancho** — alimenta Abundance y habilita Swiftmend (Alivio presto).
+4. **Regrowth (Recrecimiento) solo con proc de Clearcasting.** Sin proc es maná quemado.
+5. **Wild Growth (Crecimiento salvaje) y Swiftmend (Alivio presto) gatillan treants.** Son sanación gratis.
+6. **Si alguien muere con NS (Presteza de la Naturaleza) disponible, el error fue tuyo.**
+7. **Barkskin (Piel de corteza) temprano, no guardado.** Su CD vuelve; tu vida no.
+8. **Cyclone (Ciclón) bloquea toda sanación** — ofensivo y defensivo a la vez.
+9. **Innervate (Estimular) al 50-60% de maná.** Ni al 90% ni al 20%.
+10. **Entrar en Bear Form (Forma de oso) no es perder** — es comprar tiempo para que tus HoTs te suban.

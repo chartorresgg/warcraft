@@ -13,10 +13,10 @@ El hotfix del 1 de septiembre reequilibró tu kit en una dirección concreta:
 
 | Cambio | Consecuencia |
 |---|---|
-| **Swiftmend −20% en PvP** | Tu heal de reacción más fuerte pega menos |
-| **Regrowth −20%** | Tu heal duro también |
+| **Swiftmend (Alivio presto) −20% en PvP** | Tu heal de reacción más fuerte pega menos |
+| **Regrowth (Recrecimiento) −20%** | Tu heal duro también |
 | **Sanación general −5%** (con +4% general de vuelta) | Margen neto más ajustado |
-| **Innervate rediseñado: 20% de maná en 8 seg** | La guerra de maná cambia de reglas |
+| **Innervate (Estimular) rediseñado: 20% de maná en 8 seg** | La guerra de maná cambia de reglas |
 
 Blizzard lo dijo explícitamente: quieren *"que Resto no dependa tanto de Swiftmend para rellenar vida"*. **Traducción para ti: el parche castiga al healer reactivo y premia al preventivo.** Esta fase es exactamente ese entrenamiento — pasó de "buena base" a "requisito para no morir".
 
@@ -39,32 +39,37 @@ Lifebloom (Flor de vida) SIEMPRE en quien recibe daño — nunca se cae
 
 > ⚠️ **Efflorescence (Floración) no está en la lista porque en tu build es automática** (talento *Lifetreading*): se coloca sola bajo tu objetivo de Lifebloom. Consecuencia práctica: **elegir bien en quién va Lifebloom coloca también tu zona de sanación.** Dos decisiones en una.
 >
-> ⚠️ Lo mismo con **Grove Guardians (Fuerza de la Naturaleza)**: es pasivo en Midnight. Los treants salen al castear **Swiftmend** o **Wild Growth** — no hay botón que pulsar.
+> ⚠️ Lo mismo con **Grove Guardians (Fuerza de la Naturaleza)**: es pasivo en Midnight. Los treants salen al castear **Swiftmend (Alivio presto)** o **Wild Growth (Crecimiento salvaje)** — no hay botón que pulsar.
 
-**La regla de maná de S2:** sin proc de Omen of Clarity, Regrowth es caro. Con proc, es gratis. Si te descubres casteando Regrowth sin proc en Modo A, estás quemando la partida a los 3 minutos.
+**La regla de maná de S2:** sin proc de **Omen of Clarity (Augurio de claridad)**, **Regrowth (Recrecimiento)** es caro. Con proc, es gratis. Si te descubres casteando Regrowth sin proc en Modo A, estás quemando la partida a los 3 minutos.
 
 ### Modo B — Presión sostenida (alguien está siendo entrenado)
 
 ```
-Lifebloom en el objetivo entrenado (con Everbloom stackea a 3 — tu mayor output single-target)
-→ Rejuvenation + Regrowth con proc
-→ Swiftmend cuando el HoT ya está puesto (consume un HoT: necesita HoT previo)
-→ Wild Growth (Crecimiento salvaje) instantáneo vía Early Spring = gatilla Grove Guardians
+Lifebloom (Flor de vida) en el objetivo entrenado
+  → con Everbloom stackea a 3: tu mayor output single-target
+→ Rejuvenation (Rejuvenecimiento) + Regrowth (Recrecimiento) con proc
+→ Swiftmend (Alivio presto) cuando el HoT ya está puesto
+  → consume un HoT: necesita HoT previo
+→ Wild Growth (Crecimiento salvaje) instantáneo vía Early Spring
+  → gatilla Grove Guardians (Fuerza de la Naturaleza)
 → Ironbark (Corteza de hierro) preventivo al inicio del go, no al 20% de vida
 ```
 
-**Tras el nerf de Swiftmend:** llegar a Swiftmend sin HoTs previos ya no salva a nadie. El HoT ANTES del daño es lo que salva; Swiftmend solo cobra lo que ya sembraste.
+**Tras el nerf de Swiftmend (Alivio presto):** llegar a Swiftmend sin HoTs previos ya no salva a nadie. El HoT ANTES del daño es lo que salva; Swiftmend solo cobra lo que ya sembraste.
 
 ### Modo C — Emergencia (burst real, alguien muere en 3 segundos)
 
 Orden estricto, sin improvisar:
 
 ```
-1. Nature's Swiftness (Presteza de la Naturaleza) + Regrowth  ← el botón que más vidas salva
-2. Swiftmend si hay HoT activo
-3. Ironbark al objetivo
-4. Incarnation: Tree of Life si el equipo entero está bajo presión
-5. Tranquility si es daño sostenido en área (12.1: ahora da raíces protectoras)
+1. Nature's Swiftness (Presteza de la Naturaleza) + Regrowth (Recrecimiento)
+     ← el botón que más vidas salva
+2. Swiftmend (Alivio presto) si hay HoT activo
+3. Ironbark (Corteza de hierro) al objetivo
+4. Incarnation: Tree of Life (Encarnación: Árbol de vida) si el equipo entero está bajo presión
+5. Tranquility (Tranquilidad) si es daño sostenido en área
+     (12.1: ahora da raíces protectoras)
 ```
 
 > **La regla dura de esta fase:** si un aliado muere con **NS disponible**, el error fue tuyo. Sin excepciones. Es el fallo #1 estadístico de los Resto Druids en Solo Shuffle, y es la métrica de salida más importante de la fase.
@@ -113,8 +118,8 @@ Si falta una, **come el CC**. El trinket gastado temprano es la causa #1 de muer
 
 **Las tres fuentes de maná que sí controlas:**
 1. **Beber en transiciones.** Cada pilar, cada momento fuera de combate. BetterBlizzFrames te avisa cuándo puedes.
-2. **Regrowth solo con proc.** Es la mitad de tu gasto evitable.
-3. **No spamear Rejuvenation en overheal.** Un Rejuv en alguien al 100% que no va a recibir daño es maná tirado.
+2. **Regrowth (Recrecimiento) solo con proc.** Es la mitad de tu gasto evitable.
+3. **No spamear Rejuvenation (Rejuvenecimiento) en overheal.** Un Rejuv en alguien al 100% que no va a recibir daño es maná tirado.
 
 ---
 
@@ -155,12 +160,12 @@ Un foco por sesión. Es entrenamiento de gimnasio, no partido: el rating aquí e
 ## 7. Reglas simplificadas
 
 1. **Lifebloom (Flor de vida) nunca se cae** de quien recibe daño — Everbloom es tu motor de output.
-2. **Aliado bajo 50% con burst encima + NS disponible → NS ya.** Sin excepciones.
-3. **El HoT antes del daño es lo que salva.** Swiftmend solo cobra lo que ya sembraste — y desde septiembre cobra 20% menos.
-4. **Orden defensivo:** pilar → Barkskin → Bear+Frenzied → Ironbark → trinket.
+2. **Aliado bajo 50% con burst encima + NS (Presteza de la Naturaleza) disponible → NS ya.** Sin excepciones.
+3. **El HoT antes del daño es lo que salva.** Swiftmend (Alivio presto) solo cobra lo que ya sembraste — y desde septiembre cobra 20% menos.
+4. **Orden defensivo:** pilar → Barkskin (Piel de corteza) → Bear+Frenzied (Forma de oso + Regeneración frenética) → Ironbark (Corteza de hierro) → trinket.
 5. **Trinket solo con las 3 condiciones.** Si falta una, come el CC.
-6. **Innervate al 50-60% de maná.** Es un chupito, no una ventana de spam.
-7. **Regrowth sin proc de Clearcasting es maná quemado.**
-8. **Barkskin temprano, no guardado.** Su CD vuelve; tu vida no.
+6. **Innervate (Estimular) al 50-60% de maná.** Es un chupito, no una ventana de spam.
+7. **Regrowth (Recrecimiento) sin proc de Clearcasting es maná quemado.**
+8. **Barkskin (Piel de corteza) temprano, no guardado.** Su CD vuelve; tu vida no.
 9. **Con 200 ms, trinketea por lectura, no por reacción.** Si ves abrir sus CDs, ya sabes lo que viene.
 10. **Este parche castiga al healer reactivo.** Prepara, no apagues incendios.
