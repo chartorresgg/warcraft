@@ -17,11 +17,13 @@ Sistema personal de entrenamiento PvP (arenas 3v3 y RBG) para un Druida Restaura
 |---|---|---|
 | `00-perfil/perfil_jugador.md` | Quién es el jugador, ratings, autodiagnóstico | Contexto base en todos los chats |
 | `00-perfil/glosario_conceptos.md` | DR, tipos de CC, vocabulario de arena, siglas, elementos de la UI | El jugador es nuevo en la terminología. **No asumas conceptos: si usas uno que no está aquí, explícalo en una línea y añádelo** |
+| `03-talentos/kit_resto_druid.md` | **Qué hace cada hechizo del spec**: HoTs, curas de reacción, defensivos, CC por categoría, qué es pasivo, prioridad de casteo | **Referencia base de la clase.** El resto del proyecto explica CUÁNDO; este explica QUÉ. Consúltalo antes de dar consejo de mecánica |
 | `01-plan/roadmap_fases.md` | Plan de entrenamiento en 5 fases (0-4) con métricas de salida | La columna vertebral; recalendarizado 2026-09-11 a S2 |
 | `01-plan/fase1_sanacion_bajo_presion.md` | Detalle de Fase 1: 3 modos de sanación, capas defensivas, guerra de maná en S2 | Fuente de verdad de Fase 1 (creado 2026-09-11) |
 | `01-plan/fase2_juego_ofensivo.md` | Detalle de Fase 2: DR, Cyclone, fake casting, posicionamiento anti-CC | Fuente de verdad de Fase 2 |
 | `01-plan/fase3_equipo_comunicacion.md` | Detalle de Fase 3: comps de S2, cómo encontrar equipo, protocolo de voz, el go coordinado | Fuente de verdad de Fase 3 (creado 2026-09-12). **No se entrena en Shuffle** |
 | `01-plan/fase4_push_sostenido.md` | Detalle de Fase 4: VODs, proporción 75/25, gestión mental, ciclo semanal, RBG/Blitz | Fuente de verdad de Fase 4 (creado 2026-09-12). No termina: es modo de operación permanente |
+| `01-plan/guia_blitz.md` | Battleground Blitz: build propio (stats invertidos), rol de healer de grupo, objetivos, y las 5 hipótesis del 38% de WR | Formato distinto al de arena. **El resto del proyecto está escrito para arena** |
 | `01-plan/guia_revalidacion_s2.md` | Protocolo de revalidación tras un parche mayor | Ejecutado el 2026-09-11 para 12.1; reutilizable en el próximo parche |
 | `02-configuracion/gear_gemas_enchants.md` | Gemas, encantamientos, embellishments, trinkets, tier set y stats por bracket | Datos de meta: caducan con el parche. Revalidar en Murlok |
 | `03-talentos/matchups.md` | Desglose por clase enemiga: cómo te matan, qué trinketear, posicionamiento | Material de Fase 3-4. Win rates de S2; la táctica es estable entre parches |
