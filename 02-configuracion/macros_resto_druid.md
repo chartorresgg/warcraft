@@ -82,25 +82,57 @@ Tres reglas que se derivan de eso:
 
 
 
+## 🚨 CÓMO PEGAR UNA MACRO (leer antes de copiar nada)
+
+**Cada comando va en su propia línea.** En las tablas de abajo el código aparece en una sola celda por limitaciones del formato, pero al pegarlo en el juego hay que separarlo.
+
+❌ **Mal** (todo pegado — la macro no funciona):
+```
+#showtooltip /cast [@arena1] Ciclón
+```
+
+✅ **Bien** (un comando por renglón):
+```
+#showtooltip
+/cast [@arena1] Ciclón
+```
+
+> Esto causó que las macros 4/5/6 no funcionaran durante una sesión entera. Si una macro no hace nada y el nombre del hechizo es correcto, **revisa los saltos de línea primero**.
+
+---
+
 ## 📋 Estado de implementación (probado in-game el 2026-09-12)
 
 | # | Macro | Estado | Nota |
 |---|---|---|---|
 | 1 | Nature's Cure @party1 | ✅ **Implementada** | Funciona con mouseover sobre el marco, sin seleccionar |
 | 2 | Nature's Cure @party2 | ✅ **Implementada** | Igual |
-| 3 | Cyclone @focus | ✅ **Implementada** | Requiere tener un enemigo en focus (ver §Target vs Focus) |
-| 4 | Cyclone @arena1 | ⚠️ **En revisión** | No funciona en escaramuza — diagnóstico pendiente |
-| 5 | Cyclone @arena2 | ⚠️ **En revisión** | Igual |
-| 6 | Cyclone @arena3 | ⚠️ **En revisión** | Igual |
-| 7 | Prowl + Rake | 🔧 **Corregida — reprobar** | La versión original alternaba forma. Nueva versión abajo |
-| 7b | Maim (**Amputar**) | 🔧 **Corregida — reprobar** | Error de traducción: decía "Destripar" (= Rip, sangrado) |
+| 3 | Cyclone @focus | ✅ **Implementada** | Requiere tener un enemigo en focus (ver §Target vs Focus del glosario) |
+| 4 | Cyclone @arena1 | ✅ **Implementada** | ⚠️ Falló al principio por pegarse sin saltos de línea |
+| 5 | Cyclone @arena2 | ✅ **Implementada** | Igual |
+| 6 | Cyclone @arena3 | ✅ **Implementada** | Igual |
+| 7 | Prowl + Rake | ✅ **Implementada** | Funciona con la versión corregida (`!` + `form:2`). **Uso real: Fase 2+** — ver nota de utilidad abajo |
+| 7b | Maim (**Amputar**) | ✅ **Implementada** | Requiere puntos de combo. **Uso real: Fase 2+** — ver nota de utilidad abajo |
 | 8 | Bear + Frenzied Regen | ✅ **Implementada** | "Funciona perfectamente" |
 | 9 | NS + Cyclone instantáneo | ✅ **Implementada** | |
 | 10 | Trinket (`/use 14`) | ✅ **Implementada** | |
 | 11 | Shadowmeld | ✅ **Implementada** | |
-| **12** | **Focus @mouseover** | 🆕 **Nueva — pendiente** | Faltaba en el set: sin ella, poner focus es manual |
+| **12** | **Focus @mouseover** | 🆕 **Pendiente de crear** | Faltaba en el set original: sin ella, fijar el focus es manual |
 
-**Resumen: 7 de 11 funcionando.** Las macros 1-3 y 8-11 están cerradas.
+**Resumen: 11 de 11 creadas y funcionando.** ✅ **Fase 0.3 cerrada** (falta solo la macro 12, nueva).
+
+### ⚠️ Utilidad real de las macros 7 y 7b (stuns)
+
+Funcionan, pero **no son macros de Fase 0-1.** Conviene entender por qué antes de intentar usarlas en partida:
+
+| Macro | Limitación | Cuándo sí compensa |
+|---|---|---|
+| **7 — Prowl + Rake** | Prowl (Acechar) exige estar **fuera de combate**. En Solo Shuffle las rondas arrancan con todos peleando: la ventana casi no existe | Solo antes de que abran las puertas, o si logras resetear combate tras un pilar. Exige salir de posición de healer y volver |
+| **7b — Amputar** | Necesita **puntos de combo**, que se generan pegando en forma de gato. Para aturdir hay que dejar de curar primero | Cuando tus DPS anuncian un go: stun (4-5 seg) + Cyclone (6 seg) = ~10 seg sin sanación enemiga. Eso mata |
+
+**Regla de seguridad (de `fase2_juego_ofensivo.md` §4, Cadena B):** solo entras en Cat Form con (a) HoTs completos en los 3, (b) sin go enemigo en curso, y (c) NS disponible como airbag. Si falta una, tu aporte al go es Cyclone a distancia y nada más.
+
+> **En resumen:** de tus 12 macros, las dos de stun son las menos útiles hoy. Tu prioridad #1 declarada es el timing de Cyclone, y eso vive en las macros 3, 4, 5, 6 y 9. Déjalas creadas y no las fuerces hasta Fase 2.
 
 ---
 

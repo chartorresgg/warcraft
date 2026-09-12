@@ -38,7 +38,10 @@ Sistema personal de entrenamiento PvP (arenas 3v3 y RBG) para un Druida Restaura
 
 ## Estado actual (actualizar al avanzar)
 
-- **Fase actual: 0 (Cimientos técnicos), a medias.** ✅ **0.2 addons COMPLETADA** el 2026-09-11 (stack instalado y verificado en skirmish — detalle en `02-configuracion/macros_y_ui.md`). ❌ Pendientes: **0.3 macros** (ninguna creada aún — es el bloqueo real) y **0.4 keybinds** (sigue siendo clicker, paso 0 de la migración sin hacer).
+- **Fase actual: 0 (Cimientos técnicos), casi cerrada.** ✅ **0.2 addons COMPLETADA** el 2026-09-11. ✅ **0.3 macros COMPLETADA** el 2026-09-12 (11/11 creadas y probadas in-game; falta solo la macro 12 de focus, nueva). ❌ Pendiente: **0.4 keybinds** — sigue siendo clicker, paso 0 de la migración (girar con mouse) sin hacer. **Ese es ahora el único bloqueo de Fase 0.**
+- ⚠️ **Al dar una macro, escribe cada comando en su propia línea.** El formato de tabla de `macros_resto_druid.md` junta los comandos en una celda; pegarlos así rompe la macro (le pasó al jugador con las macros 4/5/6).
+- ⚠️ **Maim = Amputar** (no "Destripar", que es Rip/sangrado). Error de traducción detectado y corregido el 2026-09-12.
+- **Las macros de stun (7 y 7b) funcionan pero son material de Fase 2+.** Prowl exige estar fuera de combate; Amputar exige puntos de combo (= dejar de curar). No las fuerces en Fases 0-1.
 - ⚠️ **El addon se llama MiniAuras, no "MiniCC".** El nombre "MiniCC" de los documentos de julio nunca se verificó contra la instalación real. Usa MiniAuras.
 - **El jugador es nuevo en la terminología de PvP** (preguntó qué es DR tras cinco documentos usándolo). Ver `00-perfil/glosario_conceptos.md` y no asumir conceptos.
 - **Ratings S2 (2026-09-11):** Solo Shuffle 1094 (328 rondas, 52% WR) · Battleground Blitz 1421 (52 partidas, 38% WR). La caída desde 1784/1670 es el reset de S2, no pérdida de nivel — el WR de Shuffle es positivo. **Blitz a 38% es el problema real.**
