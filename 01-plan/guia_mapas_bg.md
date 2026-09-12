@@ -36,16 +36,16 @@
 
 **Puedes ser TÚ el flag carrier**, y muchas veces deberías. Si lo eres:
 
-- **Travel Form** para desplazarte, **Bear Form** cuando te alcancen
+- **Travel Form** (Forma de viaje) para desplazarte, **Bear Form** (Forma de oso) cuando te alcancen
 - **Barkskin temprano**, no guardado
 - Tus HoTs te curan mientras corres: siembra Rejuvenation sobre ti antes de coger la bandera
-- **Stampeding Roar** cuando necesites romper un cerco
+- **Stampeding Roar** (Rugido de estampida) cuando necesites romper un cerco
 - El debuff que se acumula significa que **no puedes dar vueltas**: ruta directa
 
 **Si el FC es otro:**
 
 - **Lifebloom permanente en él. Nunca se cae.**
-- **Ironbark** en cuanto empiece el burst
+- **Ironbark** (Corteza de hierro) en cuanto empiece el burst
 - **Wild Charge `@party`** para alcanzarlo si se separa
 - Tu posicionamiento anti-CC de Fase 2 **es su supervivencia**: si te ciclonean a ti, él muere
 

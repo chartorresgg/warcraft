@@ -97,10 +97,10 @@ En arena eres un healer de precisión sobre 2 objetivos. En Blitz eres **sanaci�
 
 | Hechizo | Uso en Blitz |
 |---|---|
-| **Cyclone** | Al enemigo que va a capturar un nodo: 6 segundos sin poder castear la captura. **Puede ganar un objetivo solo** |
+| **Cyclone** (Ciclón) | Al enemigo que va a capturar un nodo: 6 segundos sin poder castear la captura. **Puede ganar un objetivo solo** |
 | **Roots / Ursol's Vortex** | Frenar a quien persigue a tu flag carrier |
-| **Typhoon** | Empujar enemigos fuera de un punto de captura |
-| **Stampeding Roar** | 🆕 **Mucho más valioso que en arena**: acelera a TODO tu equipo entre nodos. Rotaciones más rápidas = objetivos ganados |
+| **Typhoon** (Tifón) | Empujar enemigos fuera de un punto de captura |
+| **Stampeding Roar** (Rugido de estampida) | 🆕 **Mucho más valioso que en arena**: acelera a TODO tu equipo entre nodos. Rotaciones más rápidas = objetivos ganados |
 
 **Stampeding Roar (Rugido de estampida) es tu habilidad más infravalorada en este formato.** En arena es un defensivo ocasional; en Blitz es movilidad de equipo, y la movilidad gana mapas.
 
@@ -128,8 +128,8 @@ En mapas de bandera (Warsong, Twin Peaks, Temple of Kotmogu):
 
 1. **Lifebloom permanente en el FC.** Nunca se cae.
 2. **Tu posicionamiento anti-CC de Fase 2 ES supervivencia del FC** — si te ciclonean a ti, el FC muere.
-3. **Stampeding Roar** cuando el FC necesita escapar.
-4. **Ironbark** al FC en cuanto empiece el burst sobre él.
+3. **Stampeding Roar** (Rugido de estampida) cuando el FC necesita escapar.
+4. **Ironbark** (Corteza de hierro) al FC en cuanto empiece el burst sobre él.
 5. **Wild Charge (Carga salvaje) `@party`** para alcanzarlo si se separa.
 
 ---

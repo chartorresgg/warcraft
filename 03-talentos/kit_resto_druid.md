@@ -92,7 +92,7 @@ Midnight convirtió varias cosas en pasivas. Esto causó errores reales en este 
 
 | Talento | Cómo funciona ahora |
 |---|---|
-| **Grove Guardians** (Fuerza de la Naturaleza) | Los treants salen **solos** al castear **Swiftmend** o **Wild Growth**. No hay botón |
+| **Grove Guardians** (Fuerza de la Naturaleza) | Los treants salen **solos** al castear **Swiftmend** (Alivio presto) o **Wild Growth** (Crecimiento salvaje). No hay botón |
 | **Efflorescence** (Floración) | **En tu build** (talento *Lifetreading*) se coloca sola bajo tu objetivo de Lifebloom. Lo que controlas es **en quién pones Lifebloom** |
 | **Flourish** | Pasivo: procea al castear Tranquility |
 | **Omen of Clarity** (Augurio de claridad) | Pasivo: da procs de *Clearcasting* que hacen tu Regrowth gratis |

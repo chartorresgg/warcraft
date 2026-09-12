@@ -46,7 +46,7 @@ Y la regla que las atraviesa todas: **el trinket solo con las 3 condiciones** (C
 | **Posición pre-opener** | Espalda a pilar o pared **siempre**. El opener por la espalda es su plan A |
 | **Antes de que abran puertas** | Barkskin listo, no gastado. Bear Form es tu segunda capa |
 | **Trinket** | Guárdalo para el **Kidney Shot**, no para el Cheap Shot de apertura. El primer stun no te mata; el segundo sí |
-| **Shadowmeld** | Tu herramienta secreta: rompe su targeting. Úsalo cuando veas venir el reapertura |
+| **Shadowmeld** (Fusión de las sombras) | Tu herramienta secreta: rompe su targeting. Úsalo cuando veas venir el reapertura |
 | **Roots (Raíces enredaderas)** | Categoría Root, barata en DR. Cada segundo que no te alcanza es un segundo que curas |
 | **Cyclone defensivo** | Cuando abra sus cooldowns ofensivos: 6 segundos de su ventana evaporados |
 

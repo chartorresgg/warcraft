@@ -98,7 +98,7 @@ Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 2. **Cyclone @focus** → botón lateral frontal del mouse
 3. **Dispel**: ya vive en scroll abajo — solo cambiar su contenido por la macro H (@mouseover) de `02-configuracion/macros_resto_druid.md`. ✅ *Macro H ya creada y funcionando.*
 4. **Bear+Frenzied (pánico)** → F
-5. **Barkskin** → D (liberada en el paso 0)
+5. **Barkskin** (Piel de corteza) → D (liberada en el paso 0)
 6. **Ironbark @party1 / @party2** → A / Shift+A (liberadas en el paso 0)
 7. Resto del set (Cyclone @arena1-3, Roots, NS+Cyclone, Shadowmeld) → tabla de `02-configuracion/macros_resto_druid.md`, sustituyendo Q/E por A/D
 

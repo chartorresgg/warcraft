@@ -85,7 +85,7 @@ Cuando el swap viene hacia ti, las capas van en este orden. Saltarse capas es co
 | 1 | **Posicionamiento / pilar** | Gratis | Siempre primero. Si puedes romper línea de visión, no gastes nada |
 | 2 | **Barkskin** (Piel de corteza) | CD corto | 30% de reducción. Úsalo TEMPRANO en el swap — no lo guardes, el CD vuelve |
 | 3 | **Bear Form + Frenzied Regen** (Forma de oso + Regeneración frenética) | Pierdes casting | Cuando Barkskin no basta. Entrar a Bear no es perder: es comprar tiempo para que tus HoTs te suban |
-| 4 | **Ironbark** (a ti mismo o al aliado) | CD medio | Si el go es sobre un aliado, va a él |
+| 4 | **Ironbark** (Corteza de hierro, a ti mismo o al aliado) | CD medio | Si el go es sobre un aliado, va a él |
 | 5 | **Trinket** | CD largo | Solo bajo la regla de 3 condiciones ↓ |
 
 ### La regla del trinket (tu duda declarada)

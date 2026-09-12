@@ -81,7 +81,7 @@
 
 **2-piece (ya lo tienes):** Rejuvenation tiene un 15% de probabilidad de otorgar *Genesis*, que hace que todos tus HoTs curen un 15% más durante 8 segundos.
 
-**4-piece:** *Genesis* pasa a activarse al **100%** desde **Nature's Swiftness**, Tranquility e Incarnation, y su duración sube 4 segundos.
+**4-piece:** *Genesis* pasa a activarse al **100%** desde **Nature's Swiftness** (Presteza de la Naturaleza), Tranquility (Tranquilidad) e Incarnation (Encarnación), y su duración sube 4 segundos.
 
 **Por qué te importa especialmente a ti:** Nature's Swiftness ya es tu botón más importante — la regla dura de Fase 1 es *"si un aliado muere con NS disponible, el error fue tuyo"*. Con el 4-piece, cada NS que uses activa además un buff del 25% a todos tus HoTs. **Tu botón antimuerte se convierte también en tu botón de burst healing.**
 
