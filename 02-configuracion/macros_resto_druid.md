@@ -1,6 +1,7 @@
 # Macros — Resto Druid PvP (Midnight S2, 12.1)
 
-> Fuentes: Skill Capped (macros S1) e Icy Veins PvP (Mysticall). Verificado 2026-07-11. **Traducido a cliente esES el 2026-09-11.**
+> Fuentes: Skill Capped (macros S1) e Icy Veins PvP (Mysticall). Traducido a cliente esES el 2026-09-11.
+> ✅ **Las 17 macros (11 obligatorias + 6 opcionales) fueron creadas y probadas in-game el 2026-09-12.** Ver tabla de estado abajo.
 >
 > **Cómo crearlas:** `ESC → Macros` (o `/macro`) → pestaña **"Específicas de personaje"** → Nueva → nombre corto → ícono **"?"** (con `#showtooltip` el ícono se actualiza solo) → pegar código → arrastrar a la barra de acción → asignar tecla en `ESC → Opciones → Asignación de teclas`.
 >

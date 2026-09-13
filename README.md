@@ -2,7 +2,7 @@
 
 Sistema personal de entrenamiento PvP para un **Druida Restauración** (Keeper of the Grove, Alianza–DunModr). No es un proyecto de código: son documentos vivos de coaching, organizados en fases con métricas medibles.
 
-**Parche actual:** 12.1, Midnight Season 2 · **Última revalidación:** 2026-09-12
+**Parche actual:** 12.1, Midnight Season 2 · **Última revalidación:** 2026-09-12 · **24 documentos**
 
 ---
 

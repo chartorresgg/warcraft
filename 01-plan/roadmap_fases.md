@@ -23,7 +23,7 @@ El plan original asumía cerrar Fases 0-1 durante S1 y empujar rating en S2. **E
 
 **La jugada correcta ahora:**
 
-- **Semana 1 (esta):** cerrar Fase 0 completa. Addons + macros en español + paso 0 de la migración (girar con mouse). Cero puntuado serio.
+- ~~**Semana 1:** cerrar Fase 0 completa.~~ ✅ **HECHO el 2026-09-12.** Solo queda construir el hábito de *mouse turning* con práctica.
 - **Semanas 2-4:** Fase 1 con el rating de Shuffle como termómetro. El objetivo es recuperar 1784, no batir récords.
 - **Semana 5 en adelante:** Fase 2 (tu prioridad #1 declarada) y push real.
 

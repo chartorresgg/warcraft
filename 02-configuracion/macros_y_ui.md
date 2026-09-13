@@ -1,6 +1,6 @@
 # Macros, UI y Keybinds — Estado Actual
 
-> Última actualización: **2026-09-11** (sesión de configuración de Fase 0.2 completada)
+> Última actualización: **2026-09-12** (Fase 0 completa: addons, macros, keybinds y migración clicker→keybinder)
 > Instrucción para Claude: este archivo refleja mi configuración ACTUAL. Cuando sugieras mejoras, parte de lo que ya tengo (cambios incrementales), no de una configuración ideal desde cero. Si una sección está vacía, propón una base y explica el porqué de cada elección.
 
 ## Addons instalados ✅ (2026-09-11)

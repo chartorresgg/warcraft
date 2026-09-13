@@ -1,6 +1,6 @@
 # Perfil del Jugador — Resto Druid PvP (Midnight)
 
-> Última actualización: **2026-09-11** (Season 2 en curso desde el 18 de agosto)
+> Última actualización: **2026-09-12** (Season 2 en curso desde el 18 de agosto · Fase 0 cerrada)
 > Instrucción para Claude: usa este perfil como contexto base en todos los chats del proyecto. Si un dato marcado [COMPLETAR] es relevante para tu respuesta, pídelo antes de responder.
 
 ## Identidad del personaje
