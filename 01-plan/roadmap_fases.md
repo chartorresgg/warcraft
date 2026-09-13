@@ -113,7 +113,7 @@ Resumen del set: Nature's Cure `@party1`/`@party2` · Cyclone `@focus` y `@arena
 
 ### 0.4 Keybinds
 
-- ✅ Dato ya recogido: **eres clicker** (todo en barras, curas en 1-5, defensivos en barra 2, dispel en scroll abajo). El plan de migración incremental de 7 pasos está en `02-configuracion/macros_y_ui.md`.
+- ✅ **Migración completada el 2026-09-12.** Eras clicker (todo en barras, curas en 1-5, defensivos en barra 2, dispel en scroll abajo); ahora las habilidades de reacción salen por tecla. **Las curas base 1-5 siguen clickeadas a propósito** — son las de menor urgencia. Mapa de teclas real en `02-configuracion/macros_y_ui.md`.
 - **Paso 0, el que bloquea todo lo demás: girar con el mouse (botón derecho sostenido), no con A/D.** Es el cambio más incómodo y el más importante: el giro con teclado tiene velocidad fija y lenta — en arena no llegas a kitear ni a reaccionar a swaps. Al hacerlo, A/D quedan libres como teclas de habilidad premium.
 - ⚠️ **Q/E se conservan como strafe** (hábito de años). Donde una tabla sugiera Q o E para habilidades, usa **A/D**.
 - Los dos botones laterales del mouse: **trinket** y **Cyclone @focus** (habilidades de reacción pura).

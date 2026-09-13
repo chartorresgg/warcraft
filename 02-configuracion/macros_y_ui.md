@@ -38,11 +38,7 @@ Instalados vía **Skill Capped UI** (CurseForge), perfiles core aplicados. Verif
 Nota: Actualmente no uso Macros. Valida si me faltan agregar más.
 > Pega aquí tus macros tal como las tienes en el juego. Formato sugerido:
 
-### Macro: [nombre]
-```
-[COMPLETAR — código de la macro]
-```
-**Propósito:** [COMPLETAR]
+> ✅ **Las 17 macros están creadas y probadas.** El código completo, en español y con su estado de implementación, vive en `02-configuracion/macros_resto_druid.md`. No se duplica aquí para que no se desincronicen.
 
 ### Macros que sé que me faltan
 
