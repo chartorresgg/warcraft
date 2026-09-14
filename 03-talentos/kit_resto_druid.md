@@ -158,3 +158,40 @@ Midnight convirtió varias cosas en pasivas. Esto causó errores reales en este 
 8. **Cyclone (Ciclón) bloquea toda sanación** — ofensivo y defensivo a la vez.
 9. **Innervate (Estimular) al 50-60% de maná.** Ni al 90% ni al 20%.
 10. **Entrar en Bear Form (Forma de oso) no es perder** — es comprar tiempo para que tus HoTs te suban.
+
+---
+
+## 10. Fuentes de este documento
+
+> Índice completo del proyecto en `00-perfil/fuentes.md`. Aquí solo lo que alimentó **este** archivo.
+> ⚠️ **El tooltip in-game gana sobre cualquier fila de esta tabla.**
+
+### Qué sección salió de dónde
+
+| Sección | Fuente | Tipo |
+|---|---|---|
+| §2 HoTs, §3 curas de reacción, §8 prioridad de casteo | [Method — Playstyle and Rotation](https://www.method.gg/guides/restoration-druid/playstyle-and-rotation) · [Icy Veins — Resto Druid PvP Guide 12.1](https://www.icy-veins.com/wow/restoration-druid-pvp-guide) | 🟡 Mecánica |
+| §4 escalera de defensivos, §9 reglas | [Icy Veins — PvP Guide 12.1](https://www.icy-veins.com/wow/restoration-druid-pvp-guide) · [Skill Capped — Resto Druid PvP Guide](https://www.skill-capped.com/wowarticles/guides/restoration-druid-pvp-guide/talents/) | 🟢 Situacional |
+| §5 CC y categorías de DR | [Icy Veins — Notas de desarrollo 12.1 (DR)](https://www.icy-veins.com/wow/news/class-changes-diminishing-returns-midnight-12-1-ptr-development-notes-june-30th/) · [Icy Veins — PvP Guide 12.1](https://www.icy-veins.com/wow/restoration-druid-pvp-guide) | 🟡 Mecánica |
+| §7 qué es PASIVO, talento *Lifetreading* | [Method — Talents](https://www.method.gg/guides/restoration-druid/talents) | 🟡 Mecánica |
+| Nerfs del 1 sep (Swiftmend −20%, Regrowth −20%, sanación −5%, Incarnation acortado, Innervate 20%) | [Blizzard — Hotfixes 1 de septiembre de 2026](https://news.blizzard.com/en-us/article/24296142/hotfixes-september-1-2026) | 🔴 Meta |
+| Cambios de 12.1 (Abundance rediseñado, Typhoon 30%, Wild Growth +15% maná / +20% cura) | [Skill Capped — Cambios de 12.1](https://www.skill-capped.com/wowarticles/guides/restoration-druid-pvp-guide/midnight-changes/) | 🔴 Meta |
+| Qué talentos asume el build (Keeper, Early Spring, Everbloom, Lifetreading) | [Murlok.io — Resto 3v3](https://murlok.io/druid/restoration/3v3) · [Solo Shuffle](https://murlok.io/druid/restoration/solo) | 🔴 Meta |
+| Nombres en español de hechizos | [WowChakra — facultades y talentos de druida](https://www.wowchakra.com/wow/descripciones-de-las-facultades-y-talentos-de-druida-en-dragonflight) · Wowhead (esES) · cliente in-game | 🟡 Mecánica |
+
+### Advertencias heredadas del proyecto
+
+- **Method es fuente de PvE.** Se usó solo para saber qué hechizos son activos y cuáles pasivos (§7) y para la lógica de mantenimiento de HoTs — nunca para builds ni prioridades de PvP.
+- **Icy Veins menciona Mighty Bash** en textos heredados: Resto **no lo tiene** en Midnight. Por eso §5 lista Rake desde Prowl y Maim (Amputar) como tus únicos stuns.
+- **Dato vivo (Murlok) gana sobre recomendación editorial (Icy Veins)** cuando choquen.
+- **WowChakra es de Dragonflight:** sirve para traducciones, pero cualquier nombre que no coincida con tu cliente se corrige contra el tooltip.
+
+### Vigencia
+
+| Contenido | Caduca |
+|---|---|
+| Números (−20%, 20% maná, 30% slow, +15% coste) | 🔴 Con el próximo parche o hotfix |
+| Qué es pasivo y qué activo | 🟡 Con reworks de clase |
+| Escalera de defensivos, prioridad de casteo, las 10 reglas | 🟢 No caduca |
+
+**Última validación de este archivo: 2026-09-12** (contra los hotfixes del 1 de septiembre y el heatmap de Murlok de S2). Protocolo de revalidación en `01-plan/guia_revalidacion_s2.md`.
